@@ -1,0 +1,48 @@
+baseurl: "https://example.com/"
+languageCode: "en-us"
+title: "A minimal Hugo website"
+theme: "hugo-xmin"
+googleAnalytics: ""
+disqusShortname: ""
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
+footnotereturnlinkcontents: "↩"
+
+permalinks:
+  note: "/note/:year/:month/:day/:slug/"
+  post: "/post/:year/:month/:day/:slug/"
+
+menu:
+  main:
+    - name: Home
+      url: ""
+      weight: 1
+    - name: Motivation
+      url: "motivation/"
+      weight: 2
+    - name: Literature
+      url: "literature/"
+      weight: 3
+    - name: Plans
+      url: "plans/"
+      weight: 4
+    - name: Vis 1
+      url: "vis1/"
+      weight: 5
+    - name: Vis 2
+      url: "vis2/"
+      weight: 6
+    - name: Vis 3
+      url: "vis3/"
+      weight: 7
+    - name: Recap
+      url: "recap/"
+      weight: 8
+
+params:
+  description: "A website built through Hugo and blogdown."
+  footer: "&copy; [Yihui Xie](https://yihui.org) 2017 -- 2020 | [Github](https://github.com/yihui) | [Twitter](https://twitter.com/xieyihui)"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

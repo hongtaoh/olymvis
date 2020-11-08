@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+	<meta name="generator" content="Hugo 0.70.0" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home | A minimal Hugo website</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/motivation/">Motivation</a></li>
+      
+      <li><a href="/literature/">Literature</a></li>
+      
+      <li><a href="/plans/">Plans</a></li>
+      
+      <li><a href="/vis1/">Vis 1</a></li>
+      
+      <li><a href="/vis2/">Vis 2</a></li>
+      
+      <li><a href="/vis3/">Vis 3</a></li>
+      
+      <li><a href="/recap/">Recap</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+
+
+
+<h1 id="visualizing-120-years-of-summer-olympics">Visualizing 120 years of Summer Olympics</h1>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Olympics.svg/1200px-Olympics.svg.png" style="max-width:18%;min-width:400px;float:center;" alt="Github repo" /></p>
+<p>This data visualization project was completed by <a href="https://github.com/zihfang/">Zihui (Chris) Fang</a> and <a href="https://hongtaoh.com/">Hongtao Hao</a>, with <strong>Equal Contribution</strong>, as the term paper for Professor <a href="http://yongyeol.com/">Yong-Yeol Ahn</a>&lsquo;s <a href="https://yyahn.com/dviz-course/">Data Visualization</a> course in 2019 Fall.</p>
+<h1 id="summary">Summary</h1>
+<p>From the first modern Olympics in 1896 to Rio 2016, the Summer Olympic Games has been through 120 years. This study analyzed the <a href="https://github.com/rgriff23/Olympic_history">historical data</a> about the Olympics and tried to answer four questions, i.e.,</p>
+<ul>
+<li>how female participation changed over the years,</li>
+<li>whether there is a home-field advantage at the Olympics,</li>
+<li>how &ldquo;efficient&rdquo; is each participating country and region to get medals, and</li>
+<li>which sports have the highest number of participants.</li>
+</ul>
+<p>Results showed that both total number of athletes and the rate of female participation have been increasing in the past 120 years. Also, there seems to exist a home-field advantage. Third, medal efficiency is highly correlated with participating country or region&rsquo;s economic development. Finally, athletics, gymnastics, and swimming have the highest number of athletes.</p>
+<h1 id="unique-contributions">Unique Contributions</h1>
+<p>Based on the above discussions of the previous visualizations on the topics we are addressing, our contributions are:</p>
+<ul>
+<li>
+<p>One of first few attempts to explore female participation in the Summer Olympics over 120 years by continent. This new insight will be important because although data shows that overall female participation in the Olympics has been increasing dramatically, this might have been the case for each continent. Further investigation into the percentage of female athletes in each of the six continents (Asia, Europe, Africa, South America, North America, and Oceania) will reveal deeper information about the trend of female athletes participation.</p>
+</li>
+<li>
+<p>Introducing KDE in examining home-field advantage in the Olympics. This method makes it possible to show the density of each host country’s performance distribution, which makes the comparison between “home” and “away” performance clearer.</p>
+</li>
+<li>
+<p>Introduction of the concept of “medal efficiency”. Earlier attempts either lacked taking into account of “medal points” or unfairly included GDP and population in their formula. Our way of calculating medal efficiency, i.e., weighted medal points per athlete participating, can more accurately estimate each country’s efficiency of producing medals in the Summer Olympics.</p>
+</li>
+</ul>
+<h1 id="workflow">Workflow</h1>
+
+
+
+  <footer>
+  <script src="//yihui.org/js/math-code.js"></script>
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.org/js/center-img.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+  
+  <hr/>
+  © <a href="https://yihui.org">Yihui Xie</a> 2017 &ndash; 2020 | <a href="https://github.com/yihui">Github</a> | <a href="https://twitter.com/xieyihui">Twitter</a>
+  
+  </footer>
+  </body>
+</html>
+
