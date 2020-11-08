@@ -18,7 +18,7 @@ To show density distribution of medal percentages, we used kernel density estima
 {{<figure src="/pics/g-2-9.png"  caption="Figure 31: KDE in small multiple for home-field advantage" class="fullwidth">}}
 
 ## Medal Efficiency
-As planned, first of all, we did data manipulation before plotting. Golds were given four points, Silver 2, and Bronze 1. Attendance without any medals was assigned to 0 point. A country’s “medal efficiency” was calculated as the quotient of total medal points and the total number of athletes participating over 120 years. 
+As planned, first of all, we did data manipulation before plotting. Golds were given four points, Silver 2, and Bronze 1. Attendance without any medals was assigned to 0 point. A country’s “medal efficiency” was calculated as the quotient of total medal points and the total number of athletes participating over 120 years. Therefore, if a country / region has a medal efficiency of 0.5, it means that on average, each athlete of that country / region earned half a Bronze. 
 
 We then plotted a choropleth map using orthographic projection. We applied Viridis color map where darker shades denote higher medal efficiency. To ensure interactivity, we made this map with the Plotly package. See Figure 32.
 
