@@ -3,8 +3,8 @@ body {
   margin: auto;
   padding: 1em;
   line-height: 1.5em;
+  image-rendering: -webkit-optimize-contrast;
 }
-
 
 h2 {
   font-size: 22px;
@@ -21,7 +21,7 @@ h2 {
 .article-meta, .menu a {
   text-decoration: none;
   padding: 5px;
-  border-radius: 5px;
+  border-radius: 20px;
 }
 .menu a {
   background: #eee;

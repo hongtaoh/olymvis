@@ -1,7 +1,7 @@
 baseurl: "https://olymvis.netlify.app/"
 languageCode: "en-us"
 title: "A minimal Hugo website"
-theme: "xmin"
+theme: "hugo-xmin"
 googleAnalytics: ""
 disqusShortname: ""
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]

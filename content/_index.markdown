@@ -3,7 +3,12 @@ title: Home
 ---
 
 # Visualizing 120 years of Summer Olympics
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Olympics.svg/1200px-Olympics.svg.png" style="max-width:18%;min-width:400px;float:center;" alt="Github repo" />
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Olympics.svg/1200px-Olympics.svg.png" width="200" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;">
+
 
 This data visualization project was completed by [Zihui (Chris) Fang](https://github.com/zihfang/) and [Hongtao Hao](https://hongtaoh.com/), with **Equal Contribution**, as the term paper for Professor [Yong-Yeol Ahn](http://yongyeol.com/)'s [Data Visualization](https://yyahn.com/dviz-course/) course in 2019 Fall. 
 
