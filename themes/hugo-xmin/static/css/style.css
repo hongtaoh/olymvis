@@ -36,7 +36,7 @@ hr {
   color: #ddd;
 }
 
-figcaption, .caption{
+figcaption, .caption, .caption-up-a-little {
   text-align: center;
   color: #757575;
 }
@@ -44,6 +44,10 @@ figcaption, .caption{
 .caption {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.caption-up-a-little {
+  margin-top: -30px;
 }
 
 .vis {
