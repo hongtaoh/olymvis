@@ -9,8 +9,9 @@ title: Home
   margin-right: auto;
   width: 50%;">
 
-
 This data visualization project was completed by [Zihui (Chris) Fang](https://github.com/zihfang/) and [Hongtao Hao](https://hongtaoh.com/), with **Equal Contribution**, as the term paper for Professor [Yong-Yeol Ahn](http://yongyeol.com/)'s [Data Visualization](https://yyahn.com/dviz-course/) course in 2019 Fall. 
+
+[Here](https://github.com/hongtaoh/olymvis/blob/master/static/tex-pdf/fang_hao_olymvis.pdf) is our study in PDF, and [here](https://github.com/hongtaoh/olymvis/blob/master/static/tex-pdf/fang_hao_olymvis.tex) is the tex source code for the PDF. 
 
 # Summary
 
