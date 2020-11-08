@@ -1,4 +1,4 @@
-baseurl: "https://example.com/"
+baseurl: "https://olymvis.netlify.app/"
 languageCode: "en-us"
 title: "A minimal Hugo website"
 theme: "hugo-xmin"
