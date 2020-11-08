@@ -6,11 +6,10 @@
 
 {{ .Content }}
 
-
 <ul>
   {{ $pages := .Pages }}
   {{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }}
-  {{ if not .IsHome}} 
+  {{ if not .IsHome }}
   {{ range (where $pages "Section" "!=" "") }}
   <li>
     <span class="date">{{ .Date.Format "2006/01/02" }}</span>
@@ -18,7 +17,6 @@
   </li>
   {{ end }}
   {{ end }}
-</ul> 
-  
+</ul>
 
 {{ partial "footer.html" . }}

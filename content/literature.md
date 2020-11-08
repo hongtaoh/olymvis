@@ -71,7 +71,7 @@ The most straightforward way of measuring a country’s efficiency of earning me
 
 Some scholars argued that when assessing the efficiency of medal production, we need to take into account the resources that countries possess, such as GDP and population. From an economics perspective, Rathke and Woitek (2007) came up with a sophisticated formula calculating this efficiency, and visualized the results using multiple box plots that were stacked horizontally. See Figure 6.
 
-{{<figure src="/pics/3-2.png" caption="Figure 6: The production of Olympic Medals, 1952-2000, Rathke \& Wotiek (2007)">}}
+{{<figure src="/pics/3-2.png" caption="Figure 6: The production of Olympic Medals, 1952-2000, Rathke & Wotiek (2007)">}}
 
 Visualizations by Eirk (2016) for the \textit{Telegraph}, and those by medalspercapita.com also highlighted the importance of  GDP and the size of population. For example, Eirk (2016) ranked Olympic nations based on “Gold per million people” and “Gold per £100 bn GDP”. See Figure 7 and 8. 
 
