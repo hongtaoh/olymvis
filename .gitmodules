@@ -1,3 +1,6 @@
 [submodule "olymvis-data"]
 	path = olymvis-data
 	url = https://github.com/hongtaoh/olymvis-data
+[submodule "themes/hugo-xmin"]
+	path = themes/hugo-xmin
+	url = https://github.com/yihui/hugo-xmin
