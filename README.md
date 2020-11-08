@@ -24,3 +24,6 @@ Based on the above discussions of the previous visualizations on the topics we a
 ## Workflow
 
 See [olymvis-data](https://github.com/hongtaoh/olymvis-data) for more details. 
+
+## PDF & Tex
+If you prefer reading in PDF: [Here](https://github.com/hongtaoh/olymvis/blob/master/static/tex-pdf/fang_hao_olymvis.pdf) is our study in PDF, and [here](https://github.com/hongtaoh/olymvis/blob/master/static/tex-pdf/fang_hao_olymvis.tex) is the tex source code for the PDF. 
