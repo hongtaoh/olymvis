@@ -40,7 +40,7 @@ menu:
 
 params:
   description: "Visualizing 120 years of Summer Olympics"
-  footer: "&copy; [Hongtao Hao](https://hongtaoh.com)| [Chris Fang](https://github.com/zihfang/) | 2020"
+  footer: "&copy; [Hongtao Hao](https://hongtaoh.com) & [Chris Fang](https://github.com/zihfang/) | 2020"
 
 markup:
   goldmark:

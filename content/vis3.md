@@ -26,7 +26,7 @@ We then plotted a choropleth map using orthographic projection. We applied Virid
 
 <div class="caption">Figure 32: Interactive choropleth for medal efficiency</div>
 
-We found this index of medal efficiency to be both more accurate and intuitive. The reasons why it is more accurate have been outlined above. We believe that it is also more intuitive because, for example, for countries that still exist today, the highest medal efficiency is 0.91 for the United States of America. The fact that the highest is close to one makes it easier for compare between countries. 
+We found this index of medal efficiency to be both more accurate and intuitive. The reasons why it is more accurate have been outlined above. We believe that it is also more intuitive because, for example, for countries that still exist today, the highest medal efficiency is 0.91 for the United States of America. The fact that the highest is close to one makes it easier to compare between countries. 
 
 ## Ranking Sports by Number of Athletes
 To rank sports according to the number of athletes, we first plotted a bar chart, each bar representing a category. As can be seen below, since there were too many categories, the names of sports overlapped to a degree that most of them were indistinguishable. Since there are around thirty sports, using colors is not an ideal option. 
