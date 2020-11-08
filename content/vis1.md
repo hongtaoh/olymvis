@@ -25,7 +25,7 @@ It was not as beautiful as we wanted, so we tried to put it upright and replace 
 <div id="figure25" class="vis"></div>
 <div class="caption">Figure 23: Vertical stacked bar chart for changes in female participation</div>
 
-However, as discussed above, stacked bar charts can only show the changes in percentages, not those in actual number of participants. To also visualize how the total number of athletes participating in the Olympics changed over the century, we opted stacked area chart. See Figure 24.
+However, as discussed above, stacked bar charts can only show the changes in percentages, not those in actual number of participants. To also visualize how the total number of athletes participating in Summer Olympics changed over the century, we opted stacked area chart. See Figure 24.
 
 <div id="figure26" class="vis"></div>
 <div class="caption">Figure 24: Stacked area chart for changes in female participation</div>
@@ -41,7 +41,7 @@ var figure23 = {
   "width": 700,
   "height": 300,
   "title": {
-    "text": "Changes in female athletes participation in the Olympics (1896-2016)",
+    "text": "Changes in female athletes participation in Summer Olympics (1896-2016)",
     "frame": "group"
   },
   "style": "cell",
@@ -788,7 +788,7 @@ var figure24 = {
   "width": 700,
   "height": 300,
   "title": {
-    "text": "Changes in female athletes participation in the Olympics (1896-2016)",
+    "text": "Changes in female athletes participation in Summer Olympics (1896-2016)",
     "frame": "group"
   },
   "style": "cell",
@@ -1505,7 +1505,7 @@ var figure25 = {
   "width": 700,
   "height": 300,
   "title": {
-    "text": "Changes in female athletes participation in the Olympics (1896-2016)",
+    "text": "Changes in female athletes participation in Summer Olympics (1896-2016)",
     "frame": "group"
   },
   "style": "cell",
@@ -2430,7 +2430,7 @@ var figure26 = {
   "width": 700,
   "height": 300,
   "title": {
-    "text": "Changes in female athletes participation in the Olympics (1896-2016)",
+    "text": "Changes in female athletes participation in Summer Olympics (1896-2016)",
     "frame": "group"
   },
   "style": "cell",

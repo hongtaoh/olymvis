@@ -1,3 +1,4 @@
+<a name="top"></a>
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
@@ -45,8 +46,8 @@
 
 <main>
 <p>To visualize changes in female participation in each continent, we first used a simple line graph where we put all the continent together. The x-axis is time, and the y-axis is female participation. The legend shows the colors associated with the continents. See Figure 25.</p>
-<div id="figure27" class="vis"></div>
 <div class="caption">Figure 25: Line graph for female participation by continent</div>
+<div id="figure27" class="vis"></div>
 <p>The graph was very messy. As there were six continents and one global average, we could not distinguish between the seven categories very easily. So we gave up this option.</p>
 <p>Then we tried a small multiple in which each continent and the global average were shown in simple line graphs. This chart showed every continent clearly but it was not very easy to make comparison. See Figure 26.</p>
 <!--
@@ -132,7 +133,7 @@ The above visualization was made by seaborn. It's not of high resolution, so we 
 
 <figure class="fullwidth">
     
-        <img src="/pics/g-2-6.png"  alt="Figure 28: Line graph in small multiple for female participation by continent against global statistics" />
+        <img src="https://raw.githubusercontent.com/hongtaoh/olymvis-data/master/output/vis/g-2-6.png"  alt="Figure 28: Line graph in small multiple for female participation by continent against global statistics" />
     
     
     <figcaption>
@@ -155,1239 +156,484 @@ var figure27 = {
   "width": 700,
   "height": 300,
   "title": {
-    "anchor": "middle",
-    "text": "Changes in female athlets participation in Summer Olympics",
+    "text": "Changes in female athletes participation in the Olympics (1896-2016)",
     "frame": "group"
   },
   "style": "cell",
   "data": [
-    {"name": "selector074_store"},
+    {"name": "selector002_store"},
     {
-      "name": "data-c9cd4958aa454941ccfb344427499b56",
+      "name": "data-acf04d5a8ed5b056492542ad6eb1d357",
       "values": [
         {
+          "Unnamed: 0": 0,
           "Year": 1896,
-          "Continent": "Global",
-          "Female_Percentage": 0,
-          "Female Percentage": "0.0%"
+          "Sex": "M",
+          "Frequency": 380,
+          "Percentage_decimal": 1,
+          "Percentage": "100.0%"
         },
         {
-          "Year": 1900,
-          "Continent": "Global",
-          "Female_Percentage": 0.016045548654244308,
-          "Female Percentage": "1.6%"
-        },
-        {
-          "Year": 1904,
-          "Continent": "Global",
-          "Female_Percentage": 0.012307692307692308,
-          "Female Percentage": "1.2%"
-        },
-        {
-          "Year": 1906,
-          "Continent": "Global",
-          "Female_Percentage": 0.006489675516224189,
-          "Female Percentage": "0.6%"
-        },
-        {
-          "Year": 1908,
-          "Continent": "Global",
-          "Female_Percentage": 0.015568068896985756,
-          "Female Percentage": "1.6%"
-        },
-        {
-          "Year": 1912,
-          "Continent": "Global",
-          "Female_Percentage": 0.020242914979757085,
-          "Female Percentage": "2.0%"
-        },
-        {
-          "Year": 1920,
-          "Continent": "Global",
-          "Female_Percentage": 0.03247863247863248,
-          "Female Percentage": "3.2%"
-        },
-        {
-          "Year": 1924,
-          "Continent": "Global",
-          "Female_Percentage": 0.04917363803305448,
-          "Female Percentage": "4.9%"
-        },
-        {
-          "Year": 1928,
-          "Continent": "Global",
-          "Female_Percentage": 0.08397582829756199,
-          "Female Percentage": "8.4%"
-        },
-        {
-          "Year": 1932,
-          "Continent": "Global",
-          "Female_Percentage": 0.11859193438140808,
-          "Female Percentage": "11.9%"
-        },
-        {
-          "Year": 1936,
-          "Continent": "Global",
-          "Female_Percentage": 0.07177974434611603,
-          "Female Percentage": "7.2%"
-        },
-        {
-          "Year": 1948,
-          "Continent": "Global",
-          "Female_Percentage": 0.0974740932642487,
-          "Female Percentage": "9.7%"
-        },
-        {
-          "Year": 1952,
-          "Continent": "Global",
-          "Female_Percentage": 0.17301414581066374,
-          "Female Percentage": "17.3%"
-        },
-        {
-          "Year": 1956,
-          "Continent": "Global",
-          "Female_Percentage": 0.1704136690647482,
-          "Female Percentage": "17.0%"
-        },
-        {
-          "Year": 1960,
-          "Continent": "Global",
-          "Female_Percentage": 0.1761111111111111,
-          "Female Percentage": "17.6%"
-        },
-        {
-          "Year": 1964,
-          "Continent": "Global",
-          "Female_Percentage": 0.17183667580435724,
-          "Female Percentage": "17.2%"
-        },
-        {
-          "Year": 1968,
-          "Continent": "Global",
-          "Female_Percentage": 0.19755020652328728,
-          "Female Percentage": "19.8%"
-        },
-        {
-          "Year": 1972,
-          "Continent": "Global",
-          "Female_Percentage": 0.2010383965225791,
-          "Female Percentage": "20.1%"
-        },
-        {
-          "Year": 1976,
-          "Continent": "Global",
-          "Female_Percentage": 0.2333720592506535,
-          "Female Percentage": "23.3%"
-        },
-        {
-          "Year": 1980,
-          "Continent": "Global",
-          "Female_Percentage": 0.22398271516024487,
-          "Female Percentage": "22.4%"
-        },
-        {
-          "Year": 1984,
-          "Continent": "Global",
-          "Female_Percentage": 0.25244707489187346,
-          "Female Percentage": "25.2%"
-        },
-        {
-          "Year": 1988,
-          "Continent": "Global",
-          "Female_Percentage": 0.2830937035200793,
-          "Female Percentage": "28.3%"
-        },
-        {
-          "Year": 1992,
-          "Continent": "Global",
-          "Female_Percentage": 0.3129472457979697,
-          "Female Percentage": "31.3%"
-        },
-        {
-          "Year": 1996,
-          "Continent": "Global",
-          "Female_Percentage": 0.36325520654340493,
-          "Female Percentage": "36.3%"
-        },
-        {
-          "Year": 2000,
-          "Continent": "Global",
-          "Female_Percentage": 0.3939145299145299,
-          "Female Percentage": "39.4%"
-        },
-        {
-          "Year": 2004,
-          "Continent": "Global",
-          "Female_Percentage": 0.4132602893664841,
-          "Female Percentage": "41.3%"
-        },
-        {
-          "Year": 2008,
-          "Continent": "Global",
-          "Female_Percentage": 0.4284037558685446,
-          "Female Percentage": "42.8%"
-        },
-        {
-          "Year": 2012,
-          "Continent": "Global",
-          "Female_Percentage": 0.4500399100210435,
-          "Female Percentage": "45.0%"
-        },
-        {
-          "Year": 2016,
-          "Continent": "Global",
-          "Female_Percentage": 0.4535101729046594,
-          "Female Percentage": "45.4%"
-        },
-        {
+          "Unnamed: 0": 1,
           "Year": 1896,
-          "Continent": "Africa",
-          "Female_Percentage": null,
-          "Female Percentage": "nan%"
+          "Sex": "F",
+          "Frequency": 0,
+          "Percentage_decimal": 0,
+          "Percentage": "0.0%"
         },
         {
+          "Unnamed: 0": 2,
           "Year": 1900,
-          "Continent": "Africa",
-          "Female_Percentage": null,
-          "Female Percentage": "nan%"
+          "Sex": "M",
+          "Frequency": 1903,
+          "Percentage_decimal": 0.983,
+          "Percentage": "98.3%"
         },
         {
-          "Year": 1904,
-          "Continent": "Africa",
-          "Female_Percentage": 0,
-          "Female Percentage": "0.0%"
-        },
-        {
-          "Year": 1906,
-          "Continent": "Africa",
-          "Female_Percentage": 0,
-          "Female Percentage": "0.0%"
-        },
-        {
-          "Year": 1908,
-          "Continent": "Africa",
-          "Female_Percentage": 0,
-          "Female Percentage": "0.0%"
-        },
-        {
-          "Year": 1912,
-          "Continent": "Africa",
-          "Female_Percentage": 0,
-          "Female Percentage": "0.0%"
-        },
-        {
-          "Year": 1920,
-          "Continent": "Africa",
-          "Female_Percentage": 0.01680672268907563,
-          "Female Percentage": "1.7%"
-        },
-        {
-          "Year": 1924,
-          "Continent": "Africa",
-          "Female_Percentage": 0,
-          "Female Percentage": "0.0%"
-        },
-        {
-          "Year": 1928,
-          "Continent": "Africa",
-          "Female_Percentage": 0.1411764705882353,
-          "Female Percentage": "14.1%"
-        },
-        {
-          "Year": 1932,
-          "Continent": "Africa",
-          "Female_Percentage": 0.25,
-          "Female Percentage": "25.0%"
-        },
-        {
-          "Year": 1936,
-          "Continent": "Africa",
-          "Female_Percentage": 0.1,
-          "Female Percentage": "10.0%"
-        },
-        {
-          "Year": 1948,
-          "Continent": "Africa",
-          "Female_Percentage": 0.009569377990430622,
-          "Female Percentage": "1.0%"
-        },
-        {
-          "Year": 1952,
-          "Continent": "Africa",
-          "Female_Percentage": 0.02735562310030395,
-          "Female Percentage": "2.7%"
-        },
-        {
-          "Year": 1956,
-          "Continent": "Africa",
-          "Female_Percentage": 0.0748663101604278,
-          "Female Percentage": "7.5%"
-        },
-        {
-          "Year": 1960,
-          "Continent": "Africa",
-          "Female_Percentage": 0.04456824512534819,
-          "Female Percentage": "4.5%"
-        },
-        {
-          "Year": 1964,
-          "Continent": "Africa",
-          "Female_Percentage": 0.045454545454545456,
-          "Female Percentage": "4.5%"
-        },
-        {
-          "Year": 1968,
-          "Continent": "Africa",
-          "Female_Percentage": 0.039886039886039885,
-          "Female Percentage": "4.0%"
-        },
-        {
-          "Year": 1972,
-          "Continent": "Africa",
-          "Female_Percentage": 0.056985294117647065,
-          "Female Percentage": "5.7%"
-        },
-        {
-          "Year": 1976,
-          "Continent": "Africa",
-          "Female_Percentage": 0.0707070707070707,
-          "Female Percentage": "7.1%"
-        },
-        {
-          "Year": 1980,
-          "Continent": "Africa",
-          "Female_Percentage": 0.1524590163934426,
-          "Female Percentage": "15.2%"
-        },
-        {
-          "Year": 1984,
-          "Continent": "Africa",
-          "Female_Percentage": 0.09419354838709676,
-          "Female Percentage": "9.4%"
-        },
-        {
-          "Year": 1988,
-          "Continent": "Africa",
-          "Female_Percentage": 0.13974799541809851,
-          "Female Percentage": "14.0%"
-        },
-        {
-          "Year": 1992,
-          "Continent": "Africa",
-          "Female_Percentage": 0.22341568206229864,
-          "Female Percentage": "22.3%"
-        },
-        {
-          "Year": 1996,
-          "Continent": "Africa",
-          "Female_Percentage": 0.2462077012835473,
-          "Female Percentage": "24.6%"
-        },
-        {
-          "Year": 2000,
-          "Continent": "Africa",
-          "Female_Percentage": 0.3296370967741936,
-          "Female Percentage": "33.0%"
-        },
-        {
-          "Year": 2004,
-          "Continent": "Africa",
-          "Female_Percentage": 0.33407572383073497,
-          "Female Percentage": "33.4%"
-        },
-        {
-          "Year": 2008,
-          "Continent": "Africa",
-          "Female_Percentage": 0.3874734607218684,
-          "Female Percentage": "38.7%"
-        },
-        {
-          "Year": 2012,
-          "Continent": "Africa",
-          "Female_Percentage": 0.399581589958159,
-          "Female Percentage": "40.0%"
-        },
-        {
-          "Year": 2016,
-          "Continent": "Africa",
-          "Female_Percentage": 0.3836772983114447,
-          "Female Percentage": "38.4%"
-        },
-        {
-          "Year": 1896,
-          "Continent": "Asia",
-          "Female_Percentage": null,
-          "Female Percentage": "nan%"
-        },
-        {
+          "Unnamed: 0": 3,
           "Year": 1900,
-          "Continent": "Asia",
-          "Female_Percentage": 0,
-          "Female Percentage": "0.0%"
+          "Sex": "F",
+          "Frequency": 33,
+          "Percentage_decimal": 0.017,
+          "Percentage": "1.7%"
         },
         {
+          "Unnamed: 0": 4,
           "Year": 1904,
-          "Continent": "Asia",
-          "Female_Percentage": null,
-          "Female Percentage": "nan%"
+          "Sex": "M",
+          "Frequency": 1285,
+          "Percentage_decimal": 0.988,
+          "Percentage": "98.8%"
         },
         {
-          "Year": 1906,
-          "Continent": "Asia",
-          "Female_Percentage": 0,
-          "Female Percentage": "0.0%"
-        },
-        {
-          "Year": 1908,
-          "Continent": "Asia",
-          "Female_Percentage": 0,
-          "Female Percentage": "0.0%"
-        },
-        {
-          "Year": 1912,
-          "Continent": "Asia",
-          "Female_Percentage": 0,
-          "Female Percentage": "0.0%"
-        },
-        {
-          "Year": 1920,
-          "Continent": "Asia",
-          "Female_Percentage": 0,
-          "Female Percentage": "0.0%"
-        },
-        {
-          "Year": 1924,
-          "Continent": "Asia",
-          "Female_Percentage": 0.033707865168539325,
-          "Female Percentage": "3.4%"
-        },
-        {
-          "Year": 1928,
-          "Continent": "Asia",
-          "Female_Percentage": 0.015873015873015872,
-          "Female Percentage": "1.6%"
-        },
-        {
-          "Year": 1932,
-          "Continent": "Asia",
-          "Female_Percentage": 0.11203319502074688,
-          "Female Percentage": "11.2%"
-        },
-        {
-          "Year": 1936,
-          "Continent": "Asia",
-          "Female_Percentage": 0.057620817843866176,
-          "Female Percentage": "5.8%"
-        },
-        {
-          "Year": 1948,
-          "Continent": "Asia",
-          "Female_Percentage": 0.0069124423963133645,
-          "Female Percentage": "0.7%"
-        },
-        {
-          "Year": 1952,
-          "Continent": "Asia",
-          "Female_Percentage": 0.065439672801636,
-          "Female Percentage": "6.5%"
-        },
-        {
-          "Year": 1956,
-          "Continent": "Asia",
-          "Female_Percentage": 0.1060126582278481,
-          "Female Percentage": "10.6%"
-        },
-        {
-          "Year": 1960,
-          "Continent": "Asia",
-          "Female_Percentage": 0.129366106080207,
-          "Female Percentage": "12.9%"
-        },
-        {
-          "Year": 1964,
-          "Continent": "Asia",
-          "Female_Percentage": 0.14587593728698026,
-          "Female Percentage": "14.6%"
-        },
-        {
-          "Year": 1968,
-          "Continent": "Asia",
-          "Female_Percentage": 0.17119244391971666,
-          "Female Percentage": "17.1%"
-        },
-        {
-          "Year": 1972,
-          "Continent": "Asia",
-          "Female_Percentage": 0.14781746031746032,
-          "Female Percentage": "14.8%"
-        },
-        {
-          "Year": 1976,
-          "Continent": "Asia",
-          "Female_Percentage": 0.16761041902604756,
-          "Female Percentage": "16.8%"
-        },
-        {
-          "Year": 1980,
-          "Continent": "Asia",
-          "Female_Percentage": 0.1494661921708185,
-          "Female Percentage": "14.9%"
-        },
-        {
-          "Year": 1984,
-          "Continent": "Asia",
-          "Female_Percentage": 0.2409855769230769,
-          "Female Percentage": "24.1%"
-        },
-        {
-          "Year": 1988,
-          "Continent": "Asia",
-          "Female_Percentage": 0.3037466547725245,
-          "Female Percentage": "30.4%"
-        },
-        {
-          "Year": 1992,
-          "Continent": "Asia",
-          "Female_Percentage": 0.31186440677966104,
-          "Female Percentage": "31.2%"
-        },
-        {
-          "Year": 1996,
-          "Continent": "Asia",
-          "Female_Percentage": 0.3821571238348868,
-          "Female Percentage": "38.2%"
-        },
-        {
-          "Year": 2000,
-          "Continent": "Asia",
-          "Female_Percentage": 0.39642620780939775,
-          "Female Percentage": "39.6%"
-        },
-        {
-          "Year": 2004,
-          "Continent": "Asia",
-          "Female_Percentage": 0.4359058207979071,
-          "Female Percentage": "43.6%"
-        },
-        {
-          "Year": 2008,
-          "Continent": "Asia",
-          "Female_Percentage": 0.43423423423423424,
-          "Female Percentage": "43.4%"
-        },
-        {
-          "Year": 2012,
-          "Continent": "Asia",
-          "Female_Percentage": 0.4599396580623533,
-          "Female Percentage": "46.0%"
-        },
-        {
-          "Year": 2016,
-          "Continent": "Asia",
-          "Female_Percentage": 0.4653897849462366,
-          "Female Percentage": "46.5%"
-        },
-        {
-          "Year": 1896,
-          "Continent": "Europe",
-          "Female_Percentage": 0,
-          "Female Percentage": "0.0%"
-        },
-        {
-          "Year": 1900,
-          "Continent": "Europe",
-          "Female_Percentage": 0.012528473804100227,
-          "Female Percentage": "1.3%"
-        },
-        {
+          "Unnamed: 0": 5,
           "Year": 1904,
-          "Continent": "Europe",
-          "Female_Percentage": 0,
-          "Female Percentage": "0.0%"
+          "Sex": "F",
+          "Frequency": 16,
+          "Percentage_decimal": 0.012,
+          "Percentage": "1.2%"
         },
         {
+          "Unnamed: 0": 6,
           "Year": 1906,
-          "Continent": "Europe",
-          "Female_Percentage": 0.006905210295040804,
-          "Female Percentage": "0.7%"
+          "Sex": "M",
+          "Frequency": 1722,
+          "Percentage_decimal": 0.9940000000000001,
+          "Percentage": "99.4%"
         },
         {
-          "Year": 1908,
-          "Continent": "Europe",
-          "Female_Percentage": 0.01800076599004213,
-          "Female Percentage": "1.8%"
-        },
-        {
-          "Year": 1912,
-          "Continent": "Europe",
-          "Female_Percentage": 0.024897480960749854,
-          "Female Percentage": "2.5%"
-        },
-        {
-          "Year": 1920,
-          "Continent": "Europe",
-          "Female_Percentage": 0.03142943487458446,
-          "Female Percentage": "3.1%"
-        },
-        {
-          "Year": 1924,
-          "Continent": "Europe",
-          "Female_Percentage": 0.05149330587023687,
-          "Female Percentage": "5.1%"
-        },
-        {
-          "Year": 1928,
-          "Continent": "Europe",
-          "Female_Percentage": 0.0821664464993395,
-          "Female Percentage": "8.2%"
-        },
-        {
-          "Year": 1932,
-          "Continent": "Europe",
-          "Female_Percentage": 0.10588235294117647,
-          "Female Percentage": "10.6%"
-        },
-        {
-          "Year": 1936,
-          "Continent": "Europe",
-          "Female_Percentage": 0.06700091157702825,
-          "Female Percentage": "6.7%"
-        },
-        {
-          "Year": 1948,
-          "Continent": "Europe",
-          "Female_Percentage": 0.1073929961089494,
-          "Female Percentage": "10.7%"
-        },
-        {
-          "Year": 1952,
-          "Continent": "Europe",
-          "Female_Percentage": 0.20599325262949,
-          "Female Percentage": "20.6%"
-        },
-        {
-          "Year": 1956,
-          "Continent": "Europe",
-          "Female_Percentage": 0.20808451998162608,
-          "Female Percentage": "20.8%"
-        },
-        {
-          "Year": 1960,
-          "Continent": "Europe",
-          "Female_Percentage": 0.19808861859252824,
-          "Female Percentage": "19.8%"
-        },
-        {
-          "Year": 1964,
-          "Continent": "Europe",
-          "Female_Percentage": 0.19008009858287125,
-          "Female Percentage": "19.0%"
-        },
-        {
-          "Year": 1968,
-          "Continent": "Europe",
-          "Female_Percentage": 0.20454545454545456,
-          "Female Percentage": "20.5%"
-        },
-        {
-          "Year": 1972,
-          "Continent": "Europe",
-          "Female_Percentage": 0.22300968580203165,
-          "Female Percentage": "22.3%"
-        },
-        {
-          "Year": 1976,
-          "Continent": "Europe",
-          "Female_Percentage": 0.2362555720653789,
-          "Female Percentage": "23.6%"
-        },
-        {
-          "Year": 1980,
-          "Continent": "Europe",
-          "Female_Percentage": 0.257801108194809,
-          "Female Percentage": "25.8%"
-        },
-        {
-          "Year": 1984,
-          "Continent": "Europe",
-          "Female_Percentage": 0.2688271604938272,
-          "Female Percentage": "26.9%"
-        },
-        {
-          "Year": 1988,
-          "Continent": "Europe",
-          "Female_Percentage": 0.29081000743126084,
-          "Female Percentage": "29.1%"
-        },
-        {
-          "Year": 1992,
-          "Continent": "Europe",
-          "Female_Percentage": 0.3262682418346073,
-          "Female Percentage": "32.6%"
-        },
-        {
-          "Year": 1996,
-          "Continent": "Europe",
-          "Female_Percentage": 0.3664026677782409,
-          "Female Percentage": "36.6%"
-        },
-        {
-          "Year": 2000,
-          "Continent": "Europe",
-          "Female_Percentage": 0.38596989491621697,
-          "Female Percentage": "38.6%"
-        },
-        {
-          "Year": 2004,
-          "Continent": "Europe",
-          "Female_Percentage": 0.4022806004618938,
-          "Female Percentage": "40.2%"
-        },
-        {
-          "Year": 2008,
-          "Continent": "Europe",
-          "Female_Percentage": 0.4252481849162839,
-          "Female Percentage": "42.5%"
-        },
-        {
-          "Year": 2012,
-          "Continent": "Europe",
-          "Female_Percentage": 0.4477747502270663,
-          "Female Percentage": "44.8%"
-        },
-        {
-          "Year": 2016,
-          "Continent": "Europe",
-          "Female_Percentage": 0.4510353417406197,
-          "Female Percentage": "45.1%"
-        },
-        {
-          "Year": 1896,
-          "Continent": "North America",
-          "Female_Percentage": 0,
-          "Female Percentage": "0.0%"
-        },
-        {
-          "Year": 1900,
-          "Continent": "North America",
-          "Female_Percentage": 0.05960264900662252,
-          "Female Percentage": "6.0%"
-        },
-        {
-          "Year": 1904,
-          "Continent": "North America",
-          "Female_Percentage": 0.013605442176870748,
-          "Female Percentage": "1.4%"
-        },
-        {
+          "Unnamed: 0": 7,
           "Year": 1906,
-          "Continent": "North America",
-          "Female_Percentage": 0,
-          "Female Percentage": "0.0%"
+          "Sex": "F",
+          "Frequency": 11,
+          "Percentage_decimal": 0.006,
+          "Percentage": "0.6%"
         },
         {
+          "Unnamed: 0": 8,
           "Year": 1908,
-          "Continent": "North America",
-          "Female_Percentage": 0,
-          "Female Percentage": "0.0%"
+          "Sex": "M",
+          "Frequency": 3054,
+          "Percentage_decimal": 0.985,
+          "Percentage": "98.5%"
         },
         {
-          "Year": 1912,
-          "Continent": "North America",
-          "Female_Percentage": 0,
-          "Female Percentage": "0.0%"
-        },
-        {
-          "Year": 1920,
-          "Continent": "North America",
-          "Female_Percentage": 0.03942652329749104,
-          "Female Percentage": "3.9%"
-        },
-        {
-          "Year": 1924,
-          "Continent": "North America",
-          "Female_Percentage": 0.05843071786310518,
-          "Female Percentage": "5.8%"
-        },
-        {
-          "Year": 1928,
-          "Continent": "North America",
-          "Female_Percentage": 0.11,
-          "Female Percentage": "11.0%"
-        },
-        {
-          "Year": 1932,
-          "Continent": "North America",
-          "Female_Percentage": 0.14641148325358852,
-          "Female Percentage": "14.6%"
-        },
-        {
-          "Year": 1936,
-          "Continent": "North America",
-          "Female_Percentage": 0.1221264367816092,
-          "Female Percentage": "12.2%"
-        },
-        {
-          "Year": 1948,
-          "Continent": "North America",
-          "Female_Percentage": 0.11932418162618795,
-          "Female Percentage": "11.9%"
-        },
-        {
-          "Year": 1952,
-          "Continent": "North America",
-          "Female_Percentage": 0.16042154566744732,
-          "Female Percentage": "16.0%"
-        },
-        {
-          "Year": 1956,
-          "Continent": "North America",
-          "Female_Percentage": 0.19484240687679086,
-          "Female Percentage": "19.5%"
-        },
-        {
-          "Year": 1960,
-          "Continent": "North America",
-          "Female_Percentage": 0.21568627450980396,
-          "Female Percentage": "21.6%"
-        },
-        {
-          "Year": 1964,
-          "Continent": "North America",
-          "Female_Percentage": 0.2101661779081134,
-          "Female Percentage": "21.0%"
-        },
-        {
-          "Year": 1968,
-          "Continent": "North America",
-          "Female_Percentage": 0.2272957889396245,
-          "Female Percentage": "22.7%"
-        },
-        {
-          "Year": 1972,
-          "Continent": "North America",
-          "Female_Percentage": 0.23755924170616116,
-          "Female Percentage": "23.8%"
-        },
-        {
-          "Year": 1976,
-          "Continent": "North America",
-          "Female_Percentage": 0.27378964941569284,
-          "Female Percentage": "27.4%"
-        },
-        {
-          "Year": 1980,
-          "Continent": "North America",
-          "Female_Percentage": 0.17372881355932204,
-          "Female Percentage": "17.4%"
-        },
-        {
-          "Year": 1984,
-          "Continent": "North America",
-          "Female_Percentage": 0.3223987698616094,
-          "Female Percentage": "32.2%"
-        },
-        {
-          "Year": 1988,
-          "Continent": "North America",
-          "Female_Percentage": 0.32998324958123953,
-          "Female Percentage": "33.0%"
-        },
-        {
-          "Year": 1992,
-          "Continent": "North America",
-          "Female_Percentage": 0.3336653386454183,
-          "Female Percentage": "33.4%"
-        },
-        {
-          "Year": 1996,
-          "Continent": "North America",
-          "Female_Percentage": 0.3953257086026852,
-          "Female Percentage": "39.5%"
-        },
-        {
-          "Year": 2000,
-          "Continent": "North America",
-          "Female_Percentage": 0.4241469816272966,
-          "Female Percentage": "42.4%"
-        },
-        {
-          "Year": 2004,
-          "Continent": "North America",
-          "Female_Percentage": 0.4470720720720721,
-          "Female Percentage": "44.7%"
-        },
-        {
-          "Year": 2008,
-          "Continent": "North America",
-          "Female_Percentage": 0.4338074398249453,
-          "Female Percentage": "43.4%"
-        },
-        {
-          "Year": 2012,
-          "Continent": "North America",
-          "Female_Percentage": 0.4791666666666667,
-          "Female Percentage": "47.9%"
-        },
-        {
-          "Year": 2016,
-          "Continent": "North America",
-          "Female_Percentage": 0.4955947136563877,
-          "Female Percentage": "49.6%"
-        },
-        {
-          "Year": 1896,
-          "Continent": "Oceania",
-          "Female_Percentage": 0,
-          "Female Percentage": "0.0%"
-        },
-        {
-          "Year": 1900,
-          "Continent": "Oceania",
-          "Female_Percentage": 0,
-          "Female Percentage": "0.0%"
-        },
-        {
-          "Year": 1904,
-          "Continent": "Oceania",
-          "Female_Percentage": 0,
-          "Female Percentage": "0.0%"
-        },
-        {
-          "Year": 1906,
-          "Continent": "Oceania",
-          "Female_Percentage": 0,
-          "Female Percentage": "0.0%"
-        },
-        {
+          "Unnamed: 0": 9,
           "Year": 1908,
-          "Continent": "Oceania",
-          "Female_Percentage": null,
-          "Female Percentage": "nan%"
+          "Sex": "F",
+          "Frequency": 47,
+          "Percentage_decimal": 0.015,
+          "Percentage": "1.5%"
         },
         {
+          "Unnamed: 0": 10,
           "Year": 1912,
-          "Continent": "Oceania",
-          "Female_Percentage": null,
-          "Female Percentage": "nan%"
+          "Sex": "M",
+          "Frequency": 3953,
+          "Percentage_decimal": 0.978,
+          "Percentage": "97.8%"
         },
         {
-          "Year": 1920,
-          "Continent": "Oceania",
-          "Female_Percentage": 0.14285714285714285,
-          "Female Percentage": "14.3%"
-        },
-        {
-          "Year": 1924,
-          "Continent": "Oceania",
-          "Female_Percentage": 0.045454545454545456,
-          "Female Percentage": "4.5%"
-        },
-        {
-          "Year": 1928,
-          "Continent": "Oceania",
-          "Female_Percentage": 0.2857142857142857,
-          "Female Percentage": "28.6%"
-        },
-        {
-          "Year": 1932,
-          "Continent": "Oceania",
-          "Female_Percentage": 0.12244897959183673,
-          "Female Percentage": "12.2%"
-        },
-        {
-          "Year": 1936,
-          "Continent": "Oceania",
-          "Female_Percentage": 0.125,
-          "Female Percentage": "12.5%"
-        },
-        {
-          "Year": 1948,
-          "Continent": "Oceania",
-          "Female_Percentage": 0.17117117117117114,
-          "Female Percentage": "17.1%"
-        },
-        {
-          "Year": 1952,
-          "Continent": "Oceania",
-          "Female_Percentage": 0.1375,
-          "Female Percentage": "13.8%"
-        },
-        {
-          "Year": 1956,
-          "Continent": "Oceania",
-          "Female_Percentage": 0.1729957805907173,
-          "Female Percentage": "17.3%"
-        },
-        {
-          "Year": 1960,
-          "Continent": "Oceania",
-          "Female_Percentage": 0.18787878787878787,
-          "Female Percentage": "18.8%"
-        },
-        {
-          "Year": 1964,
-          "Continent": "Oceania",
-          "Female_Percentage": 0.2375,
-          "Female Percentage": "23.8%"
-        },
-        {
-          "Year": 1968,
-          "Continent": "Oceania",
-          "Female_Percentage": 0.25862068965517243,
-          "Female Percentage": "25.9%"
-        },
-        {
-          "Year": 1972,
-          "Continent": "Oceania",
-          "Female_Percentage": 0.2356020942408377,
-          "Female Percentage": "23.6%"
-        },
-        {
-          "Year": 1976,
-          "Continent": "Oceania",
-          "Female_Percentage": 0.2383419689119171,
-          "Female Percentage": "23.8%"
-        },
-        {
-          "Year": 1980,
-          "Continent": "Oceania",
-          "Female_Percentage": 0.29949238578680204,
-          "Female Percentage": "29.9%"
-        },
-        {
-          "Year": 1984,
-          "Continent": "Oceania",
-          "Female_Percentage": 0.2949640287769784,
-          "Female Percentage": "29.5%"
-        },
-        {
-          "Year": 1988,
-          "Continent": "Oceania",
-          "Female_Percentage": 0.2690972222222222,
-          "Female Percentage": "26.9%"
-        },
-        {
-          "Year": 1992,
-          "Continent": "Oceania",
-          "Female_Percentage": 0.3381712626995646,
-          "Female Percentage": "33.8%"
-        },
-        {
-          "Year": 1996,
-          "Continent": "Oceania",
-          "Female_Percentage": 0.3949801849405548,
-          "Female Percentage": "39.5%"
-        },
-        {
-          "Year": 2000,
-          "Continent": "Oceania",
-          "Female_Percentage": 0.4650934119960669,
-          "Female Percentage": "46.5%"
-        },
-        {
-          "Year": 2004,
-          "Continent": "Oceania",
-          "Female_Percentage": 0.4480286738351255,
-          "Female Percentage": "44.8%"
-        },
-        {
-          "Year": 2008,
-          "Continent": "Oceania",
-          "Female_Percentage": 0.4597839135654262,
-          "Female Percentage": "46.0%"
-        },
-        {
-          "Year": 2012,
-          "Continent": "Oceania",
-          "Female_Percentage": 0.4623115577889447,
-          "Female Percentage": "46.2%"
-        },
-        {
-          "Year": 2016,
-          "Continent": "Oceania",
-          "Female_Percentage": 0.4833141542002302,
-          "Female Percentage": "48.3%"
-        },
-        {
-          "Year": 1896,
-          "Continent": "South America",
-          "Female_Percentage": null,
-          "Female Percentage": "nan%"
-        },
-        {
-          "Year": 1900,
-          "Continent": "South America",
-          "Female_Percentage": 0,
-          "Female Percentage": "0.0%"
-        },
-        {
-          "Year": 1904,
-          "Continent": "South America",
-          "Female_Percentage": null,
-          "Female Percentage": "nan%"
-        },
-        {
-          "Year": 1906,
-          "Continent": "South America",
-          "Female_Percentage": null,
-          "Female Percentage": "nan%"
-        },
-        {
-          "Year": 1908,
-          "Continent": "South America",
-          "Female_Percentage": 0,
-          "Female Percentage": "0.0%"
-        },
-        {
+          "Unnamed: 0": 11,
           "Year": 1912,
-          "Continent": "South America",
-          "Female_Percentage": 0,
-          "Female Percentage": "0.0%"
+          "Sex": "F",
+          "Frequency": 87,
+          "Percentage_decimal": 0.022000000000000002,
+          "Percentage": "2.2%"
         },
         {
+          "Unnamed: 0": 12,
           "Year": 1920,
-          "Continent": "South America",
-          "Female_Percentage": 0,
-          "Female Percentage": "0.0%"
+          "Sex": "M",
+          "Frequency": 4158,
+          "Percentage_decimal": 0.9690000000000001,
+          "Percentage": "96.9%"
         },
         {
+          "Unnamed: 0": 13,
+          "Year": 1920,
+          "Sex": "F",
+          "Frequency": 134,
+          "Percentage_decimal": 0.031,
+          "Percentage": "3.1%"
+        },
+        {
+          "Unnamed: 0": 14,
           "Year": 1924,
-          "Continent": "South America",
-          "Female_Percentage": 0,
-          "Female Percentage": "0.0%"
+          "Sex": "M",
+          "Frequency": 4989,
+          "Percentage_decimal": 0.953,
+          "Percentage": "95.3%"
         },
         {
+          "Unnamed: 0": 15,
+          "Year": 1924,
+          "Sex": "F",
+          "Frequency": 244,
+          "Percentage_decimal": 0.047,
+          "Percentage": "4.7%"
+        },
+        {
+          "Unnamed: 0": 16,
           "Year": 1928,
-          "Continent": "South America",
-          "Female_Percentage": 0,
-          "Female Percentage": "0.0%"
+          "Sex": "M",
+          "Frequency": 4588,
+          "Percentage_decimal": 0.919,
+          "Percentage": "91.9%"
         },
         {
+          "Unnamed: 0": 17,
+          "Year": 1928,
+          "Sex": "F",
+          "Frequency": 404,
+          "Percentage_decimal": 0.081,
+          "Percentage": "8.1%"
+        },
+        {
+          "Unnamed: 0": 18,
           "Year": 1932,
-          "Continent": "South America",
-          "Female_Percentage": 0.023809523809523808,
-          "Female Percentage": "2.4%"
+          "Sex": "M",
+          "Frequency": 2622,
+          "Percentage_decimal": 0.883,
+          "Percentage": "88.3%"
         },
         {
+          "Unnamed: 0": 19,
+          "Year": 1932,
+          "Sex": "F",
+          "Frequency": 347,
+          "Percentage_decimal": 0.11699999999999999,
+          "Percentage": "11.7%"
+        },
+        {
+          "Unnamed: 0": 20,
           "Year": 1936,
-          "Continent": "South America",
-          "Female_Percentage": 0.03205128205128205,
-          "Female Percentage": "3.2%"
+          "Sex": "M",
+          "Frequency": 6038,
+          "Percentage_decimal": 0.9279999999999999,
+          "Percentage": "92.8%"
         },
         {
+          "Unnamed: 0": 21,
+          "Year": 1936,
+          "Sex": "F",
+          "Frequency": 468,
+          "Percentage_decimal": 0.07200000000000001,
+          "Percentage": "7.2%"
+        },
+        {
+          "Unnamed: 0": 22,
           "Year": 1948,
-          "Continent": "South America",
-          "Female_Percentage": 0.08225806451612902,
-          "Female Percentage": "8.2%"
+          "Sex": "M",
+          "Frequency": 5777,
+          "Percentage_decimal": 0.902,
+          "Percentage": "90.2%"
         },
         {
+          "Unnamed: 0": 23,
+          "Year": 1948,
+          "Sex": "F",
+          "Frequency": 628,
+          "Percentage_decimal": 0.098,
+          "Percentage": "9.8%"
+        },
+        {
+          "Unnamed: 0": 24,
           "Year": 1952,
-          "Continent": "South America",
-          "Female_Percentage": 0.07068607068607069,
-          "Female Percentage": "7.1%"
+          "Sex": "M",
+          "Frequency": 6773,
+          "Percentage_decimal": 0.8190000000000001,
+          "Percentage": "81.9%"
         },
         {
+          "Unnamed: 0": 25,
+          "Year": 1952,
+          "Sex": "F",
+          "Frequency": 1497,
+          "Percentage_decimal": 0.18100000000000002,
+          "Percentage": "18.1%"
+        },
+        {
+          "Unnamed: 0": 26,
           "Year": 1956,
-          "Continent": "South America",
-          "Female_Percentage": 0.021428571428571432,
-          "Female Percentage": "2.1%"
+          "Sex": "M",
+          "Frequency": 4234,
+          "Percentage_decimal": 0.826,
+          "Percentage": "82.6%"
         },
         {
+          "Unnamed: 0": 27,
+          "Year": 1956,
+          "Sex": "F",
+          "Frequency": 893,
+          "Percentage_decimal": 0.174,
+          "Percentage": "17.4%"
+        },
+        {
+          "Unnamed: 0": 28,
           "Year": 1960,
-          "Continent": "South America",
-          "Female_Percentage": 0.03523035230352303,
-          "Female Percentage": "3.5%"
+          "Sex": "M",
+          "Frequency": 6684,
+          "Percentage_decimal": 0.823,
+          "Percentage": "82.3%"
         },
         {
+          "Unnamed: 0": 29,
+          "Year": 1960,
+          "Sex": "F",
+          "Frequency": 1435,
+          "Percentage_decimal": 0.177,
+          "Percentage": "17.7%"
+        },
+        {
+          "Unnamed: 0": 30,
           "Year": 1964,
-          "Continent": "South America",
-          "Female_Percentage": 0.04132231404958678,
-          "Female Percentage": "4.1%"
+          "Sex": "M",
+          "Frequency": 6354,
+          "Percentage_decimal": 0.825,
+          "Percentage": "82.5%"
         },
         {
+          "Unnamed: 0": 31,
+          "Year": 1964,
+          "Sex": "F",
+          "Frequency": 1348,
+          "Percentage_decimal": 0.175,
+          "Percentage": "17.5%"
+        },
+        {
+          "Unnamed: 0": 32,
           "Year": 1968,
-          "Continent": "South America",
-          "Female_Percentage": 0.15560165975103735,
-          "Female Percentage": "15.6%"
+          "Sex": "M",
+          "Frequency": 6811,
+          "Percentage_decimal": 0.7929999999999999,
+          "Percentage": "79.3%"
         },
         {
+          "Unnamed: 0": 33,
+          "Year": 1968,
+          "Sex": "F",
+          "Frequency": 1777,
+          "Percentage_decimal": 0.207,
+          "Percentage": "20.7%"
+        },
+        {
+          "Unnamed: 0": 34,
           "Year": 1972,
-          "Continent": "South America",
-          "Female_Percentage": 0.117096018735363,
-          "Female Percentage": "11.7%"
+          "Sex": "M",
+          "Frequency": 8111,
+          "Percentage_decimal": 0.787,
+          "Percentage": "78.7%"
         },
         {
+          "Unnamed: 0": 35,
+          "Year": 1972,
+          "Sex": "F",
+          "Frequency": 2193,
+          "Percentage_decimal": 0.213,
+          "Percentage": "21.3%"
+        },
+        {
+          "Unnamed: 0": 36,
           "Year": 1976,
-          "Continent": "South America",
-          "Female_Percentage": 0.2050561797752809,
-          "Female Percentage": "20.5%"
+          "Sex": "M",
+          "Frequency": 6469,
+          "Percentage_decimal": 0.7490000000000001,
+          "Percentage": "74.9%"
         },
         {
+          "Unnamed: 0": 37,
+          "Year": 1976,
+          "Sex": "F",
+          "Frequency": 2172,
+          "Percentage_decimal": 0.251,
+          "Percentage": "25.1%"
+        },
+        {
+          "Unnamed: 0": 38,
           "Year": 1980,
-          "Continent": "South America",
-          "Female_Percentage": 0.14788732394366194,
-          "Female Percentage": "14.8%"
+          "Sex": "M",
+          "Frequency": 5435,
+          "Percentage_decimal": 0.7559999999999999,
+          "Percentage": "75.6%"
         },
         {
+          "Unnamed: 0": 39,
+          "Year": 1980,
+          "Sex": "F",
+          "Frequency": 1756,
+          "Percentage_decimal": 0.244,
+          "Percentage": "24.4%"
+        },
+        {
+          "Unnamed: 0": 40,
           "Year": 1984,
-          "Continent": "South America",
-          "Female_Percentage": 0.13333333333333333,
-          "Female Percentage": "13.3%"
+          "Sex": "M",
+          "Frequency": 7007,
+          "Percentage_decimal": 0.741,
+          "Percentage": "74.1%"
         },
         {
+          "Unnamed: 0": 41,
+          "Year": 1984,
+          "Sex": "F",
+          "Frequency": 2447,
+          "Percentage_decimal": 0.259,
+          "Percentage": "25.9%"
+        },
+        {
+          "Unnamed: 0": 42,
           "Year": 1988,
-          "Continent": "South America",
-          "Female_Percentage": 0.2332155477031802,
-          "Female Percentage": "23.3%"
+          "Sex": "M",
+          "Frequency": 8494,
+          "Percentage_decimal": 0.706,
+          "Percentage": "70.6%"
         },
         {
+          "Unnamed: 0": 43,
+          "Year": 1988,
+          "Sex": "F",
+          "Frequency": 3543,
+          "Percentage_decimal": 0.294,
+          "Percentage": "29.4%"
+        },
+        {
+          "Unnamed: 0": 44,
           "Year": 1992,
-          "Continent": "South America",
-          "Female_Percentage": 0.2249560632688928,
-          "Female Percentage": "22.5%"
+          "Sex": "M",
+          "Frequency": 8853,
+          "Percentage_decimal": 0.682,
+          "Percentage": "68.2%"
         },
         {
+          "Unnamed: 0": 45,
+          "Year": 1992,
+          "Sex": "F",
+          "Frequency": 4124,
+          "Percentage_decimal": 0.318,
+          "Percentage": "31.8%"
+        },
+        {
+          "Unnamed: 0": 46,
           "Year": 1996,
-          "Continent": "South America",
-          "Female_Percentage": 0.2697095435684647,
-          "Female Percentage": "27.0%"
+          "Sex": "M",
+          "Frequency": 8772,
+          "Percentage_decimal": 0.637,
+          "Percentage": "63.7%"
         },
         {
+          "Unnamed: 0": 47,
+          "Year": 1996,
+          "Sex": "F",
+          "Frequency": 5008,
+          "Percentage_decimal": 0.363,
+          "Percentage": "36.3%"
+        },
+        {
+          "Unnamed: 0": 48,
           "Year": 2000,
-          "Continent": "South America",
-          "Female_Percentage": 0.366306027820711,
-          "Female Percentage": "36.6%"
+          "Sex": "M",
+          "Frequency": 8390,
+          "Percentage_decimal": 0.607,
+          "Percentage": "60.7%"
         },
         {
+          "Unnamed: 0": 49,
+          "Year": 2000,
+          "Sex": "F",
+          "Frequency": 5431,
+          "Percentage_decimal": 0.39299999999999996,
+          "Percentage": "39.3%"
+        },
+        {
+          "Unnamed: 0": 50,
           "Year": 2004,
-          "Continent": "South America",
-          "Female_Percentage": 0.39811066126855604,
-          "Female Percentage": "39.8%"
+          "Sex": "M",
+          "Frequency": 7897,
+          "Percentage_decimal": 0.5870000000000001,
+          "Percentage": "58.7%"
         },
         {
+          "Unnamed: 0": 51,
+          "Year": 2004,
+          "Sex": "F",
+          "Frequency": 5546,
+          "Percentage_decimal": 0.413,
+          "Percentage": "41.3%"
+        },
+        {
+          "Unnamed: 0": 52,
           "Year": 2008,
-          "Continent": "South America",
-          "Female_Percentage": 0.4339152119700748,
-          "Female Percentage": "43.4%"
+          "Sex": "M",
+          "Frequency": 7786,
+          "Percentage_decimal": 0.5720000000000001,
+          "Percentage": "57.2%"
         },
         {
+          "Unnamed: 0": 53,
+          "Year": 2008,
+          "Sex": "F",
+          "Frequency": 5816,
+          "Percentage_decimal": 0.428,
+          "Percentage": "42.8%"
+        },
+        {
+          "Unnamed: 0": 54,
           "Year": 2012,
-          "Continent": "South America",
-          "Female_Percentage": 0.4207920792079208,
-          "Female Percentage": "42.1%"
+          "Sex": "M",
+          "Frequency": 7105,
+          "Percentage_decimal": 0.55,
+          "Percentage": "55.0%"
         },
         {
+          "Unnamed: 0": 55,
+          "Year": 2012,
+          "Sex": "F",
+          "Frequency": 5815,
+          "Percentage_decimal": 0.45,
+          "Percentage": "45.0%"
+        },
+        {
+          "Unnamed: 0": 56,
           "Year": 2016,
-          "Continent": "South America",
-          "Female_Percentage": 0.4156674660271783,
-          "Female Percentage": "41.6%"
+          "Sex": "M",
+          "Frequency": 7465,
+          "Percentage_decimal": 0.545,
+          "Percentage": "54.5%"
+        },
+        {
+          "Unnamed: 0": 57,
+          "Year": 2016,
+          "Sex": "F",
+          "Frequency": 6223,
+          "Percentage_decimal": 0.455,
+          "Percentage": "45.5%"
         }
       ]
     },
     {
       "name": "data_0",
-      "source": "data-c9cd4958aa454941ccfb344427499b56",
+      "source": "data-acf04d5a8ed5b056492542ad6eb1d357",
       "transform": [
         {"type": "formula", "expr": "toNumber(datum[\"Year\"])", "as": "Year"}
       ]
@@ -1402,57 +648,57 @@ var figure27 = {
       ]
     },
     {
-      "name": "selector074",
-      "update": "vlSelectionResolve(\"selector074_store\", \"union\")"
+      "name": "selector002",
+      "update": "vlSelectionResolve(\"selector002_store\", \"union\")"
     },
     {
-      "name": "selector074_Year",
+      "name": "selector002_Year",
       "on": [
         {
-          "events": {"signal": "selector074_translate_delta"},
-          "update": "panLinear(selector074_translate_anchor.extent_x, -selector074_translate_delta.x / width)"
+          "events": {"signal": "selector002_translate_delta"},
+          "update": "panLinear(selector002_translate_anchor.extent_x, -selector002_translate_delta.x / width)"
         },
         {
-          "events": {"signal": "selector074_zoom_delta"},
-          "update": "zoomLinear(domain(\"x\"), selector074_zoom_anchor.x, selector074_zoom_delta)"
+          "events": {"signal": "selector002_zoom_delta"},
+          "update": "zoomLinear(domain(\"x\"), selector002_zoom_anchor.x, selector002_zoom_delta)"
         },
         {"events": [{"source": "scope", "type": "dblclick"}], "update": "null"}
       ]
     },
     {
-      "name": "selector074_Female_Percentage",
+      "name": "selector002_Percentage_decimal",
       "on": [
         {
-          "events": {"signal": "selector074_translate_delta"},
-          "update": "panLinear(selector074_translate_anchor.extent_y, selector074_translate_delta.y / height)"
+          "events": {"signal": "selector002_translate_delta"},
+          "update": "panLinear(selector002_translate_anchor.extent_y, selector002_translate_delta.y / height)"
         },
         {
-          "events": {"signal": "selector074_zoom_delta"},
-          "update": "zoomLinear(domain(\"y\"), selector074_zoom_anchor.y, selector074_zoom_delta)"
+          "events": {"signal": "selector002_zoom_delta"},
+          "update": "zoomLinear(domain(\"y\"), selector002_zoom_anchor.y, selector002_zoom_delta)"
         },
         {"events": [{"source": "scope", "type": "dblclick"}], "update": "null"}
       ]
     },
     {
-      "name": "selector074_tuple",
+      "name": "selector002_tuple",
       "on": [
         {
           "events": [
-            {"signal": "selector074_Year || selector074_Female_Percentage"}
+            {"signal": "selector002_Year || selector002_Percentage_decimal"}
           ],
-          "update": "selector074_Year && selector074_Female_Percentage ? {unit: \"\", fields: selector074_tuple_fields, values: [selector074_Year,selector074_Female_Percentage]} : null"
+          "update": "selector002_Year && selector002_Percentage_decimal ? {unit: \"\", fields: selector002_tuple_fields, values: [selector002_Year,selector002_Percentage_decimal]} : null"
         }
       ]
     },
     {
-      "name": "selector074_tuple_fields",
+      "name": "selector002_tuple_fields",
       "value": [
         {"field": "Year", "channel": "x", "type": "R"},
-        {"field": "Female_Percentage", "channel": "y", "type": "R"}
+        {"field": "Percentage_decimal", "channel": "y", "type": "R"}
       ]
     },
     {
-      "name": "selector074_translate_anchor",
+      "name": "selector002_translate_anchor",
       "value": {},
       "on": [
         {
@@ -1462,7 +708,7 @@ var figure27 = {
       ]
     },
     {
-      "name": "selector074_translate_delta",
+      "name": "selector002_translate_delta",
       "value": {},
       "on": [
         {
@@ -1477,12 +723,12 @@ var figure27 = {
               ]
             }
           ],
-          "update": "{x: selector074_translate_anchor.x - x(unit), y: selector074_translate_anchor.y - y(unit)}"
+          "update": "{x: selector002_translate_anchor.x - x(unit), y: selector002_translate_anchor.y - y(unit)}"
         }
       ]
     },
     {
-      "name": "selector074_zoom_anchor",
+      "name": "selector002_zoom_anchor",
       "on": [
         {
           "events": [{"source": "scope", "type": "wheel", "consume": true}],
@@ -1491,7 +737,7 @@ var figure27 = {
       ]
     },
     {
-      "name": "selector074_zoom_delta",
+      "name": "selector002_zoom_delta",
       "on": [
         {
           "events": [{"source": "scope", "type": "wheel", "consume": true}],
@@ -1501,11 +747,11 @@ var figure27 = {
       ]
     },
     {
-      "name": "selector074_modify",
+      "name": "selector002_modify",
       "on": [
         {
-          "events": {"signal": "selector074_tuple"},
-          "update": "modify(\"selector074_store\", selector074_tuple, true)"
+          "events": {"signal": "selector002_tuple"},
+          "update": "modify(\"selector002_store\", selector002_tuple, true)"
         }
       ]
     }
@@ -1518,7 +764,7 @@ var figure27 = {
         "facet": {
           "name": "faceted_path_main",
           "data": "data_0",
-          "groupby": ["Continent"]
+          "groupby": ["Sex"]
         }
       },
       "encode": {
@@ -1538,18 +784,18 @@ var figure27 = {
           "from": {"data": "faceted_path_main"},
           "encode": {
             "update": {
-              "stroke": {"scale": "color", "field": "Continent"},
+              "stroke": {"scale": "color", "field": "Sex"},
               "tooltip": {
-                "signal": "{\"Year\": format(datum[\"Year\"], \"\"), \"Continent\": isValid(datum[\"Continent\"]) ? datum[\"Continent\"] : \"\"+datum[\"Continent\"], \"Female Percentage\": isValid(datum[\"Female Percentage\"]) ? datum[\"Female Percentage\"] : \"\"+datum[\"Female Percentage\"]}"
+                "signal": "{\"Year\": format(datum[\"Year\"], \"\"), \"Sex\": isValid(datum[\"Sex\"]) ? datum[\"Sex\"] : \"\"+datum[\"Sex\"], \"Percentage\": isValid(datum[\"Percentage\"]) ? datum[\"Percentage\"] : \"\"+datum[\"Percentage\"]}"
               },
               "description": {
-                "signal": "\"Continent\" + \": \" + (isValid(datum[\"Continent\"]) ? datum[\"Continent\"] : \"\"+datum[\"Continent\"]) + \"; \" + \"Year\" + \": \" + (format(datum[\"Year\"], \"\")) + \"; \" + \"Female Percentage\" + \": \" + (format(datum[\"Female_Percentage\"], \"\"))"
+                "signal": "\"Sex\" + \": \" + (isValid(datum[\"Sex\"]) ? datum[\"Sex\"] : \"\"+datum[\"Sex\"]) + \"; \" + \"Year\" + \": \" + (format(datum[\"Year\"], \"\")) + \"; \" + \"Percentage\" + \": \" + (format(datum[\"Percentage_decimal\"], \"%\"))"
               },
               "x": {"scale": "x", "field": "Year"},
-              "y": {"scale": "y", "field": "Female_Percentage"},
-              "strokeWidth": {"value": 4},
+              "y": {"scale": "y", "field": "Percentage_decimal"},
+              "strokeWidth": {"value": 5},
               "defined": {
-                "signal": "isValid(datum[\"Year\"]) && isFinite(+datum[\"Year\"]) && isValid(datum[\"Female_Percentage\"]) && isFinite(+datum[\"Female_Percentage\"])"
+                "signal": "isValid(datum[\"Year\"]) && isFinite(+datum[\"Year\"]) && isValid(datum[\"Percentage_decimal\"]) && isFinite(+datum[\"Percentage_decimal\"])"
               }
             }
           }
@@ -1562,7 +808,7 @@ var figure27 = {
       "name": "x",
       "type": "linear",
       "domain": {"data": "data_0", "field": "Year"},
-      "domainRaw": {"signal": "selector074[\"Year\"]"},
+      "domainRaw": {"signal": "selector002[\"Year\"]"},
       "range": [0, {"signal": "width"}],
       "nice": true,
       "zero": false
@@ -1570,8 +816,8 @@ var figure27 = {
     {
       "name": "y",
       "type": "linear",
-      "domain": {"data": "data_0", "field": "Female_Percentage"},
-      "domainRaw": {"signal": "selector074[\"Female_Percentage\"]"},
+      "domain": {"data": "data_0", "field": "Percentage_decimal"},
+      "domainRaw": {"signal": "selector002[\"Percentage_decimal\"]"},
       "range": [{"signal": "height"}, 0],
       "nice": true,
       "zero": true
@@ -1579,7 +825,7 @@ var figure27 = {
     {
       "name": "color",
       "type": "ordinal",
-      "domain": {"data": "data_0", "field": "Continent", "sort": true},
+      "domain": {"data": "data_0", "field": "Sex", "sort": true},
       "range": "category"
     }
   ],
@@ -1626,15 +872,14 @@ var figure27 = {
       "scale": "y",
       "orient": "left",
       "grid": false,
-      "title": "Female Percentage",
+      "title": "Percentage",
+      "format": "%",
       "labelOverlap": true,
       "tickCount": {"signal": "ceil(height/40)"},
       "zindex": 0
     }
   ],
-  "legends": [
-    {"stroke": "color", "symbolType": "stroke", "title": "Continent"}
-  ],
+  "legends": [{"stroke": "color", "symbolType": "stroke", "title": "Sex"}],
   "config": {
     "legend": {
       "cornerRadius": 10,
@@ -1643,7 +888,7 @@ var figure27 = {
       "padding": 10,
       "strokeColor": "gray"
     },
-    "style": {"group-title": {"fontSize": 18, "fill": "black"}},
+    "style": {"group-title": {"fontSize": 16}},
     "axis": {"labelFontSize": 12, "titleFontSize": 14}
   }
 }
