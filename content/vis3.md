@@ -14,8 +14,6 @@ The blue dots were too packed. We later tried beeswarm plot coupled with box plo
 
 To show density distribution of medal percentages, we used kernel density estimation in a small multiple. The x-axis is the medal percentage and the y-axis is the probability density. We used a red arrow to denote when the country was a Olympics host. An arrow located at the tail would indicate the existence of home-field advantage. See Figure 31.
 
-[**FIGURE 33 HERE**]
-
 {{<figure src="/pics/g-2-9.png"  caption="Figure 31: KDE in small multiple for home-field advantage" class="fullwidth">}}
 
 ## Medal Efficiency
@@ -35,5 +33,5 @@ To rank sports according to the number of athletes, we first plotted a bar chart
 
 We then thought about word cloud. In word cloud, the size of words is associated with the frequencies. This would make our ranking clearer. We did this visualization with the wordcloud package. See Figure 33.
 
-{{<figure src="/pics/g-4-2.png"  caption="Figure 33: Word cloud for sports ranking by number of participants in all past Summer Olympics" class="wide">}}
+{{<figure src="/pics/g-4-2.png"  caption="Figure 33: Word cloud of sports ranking by number of participants in all past Summer Olympics" class="wide">}}
 

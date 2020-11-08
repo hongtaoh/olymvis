@@ -39,8 +39,8 @@ menu:
       weight: 8
 
 params:
-  description: "A website built through Hugo and blogdown."
-  footer: "&copy; [Yihui Xie](https://yihui.org) 2017 -- 2020 | [Github](https://github.com/yihui) | [Twitter](https://twitter.com/xieyihui)"
+  description: "Visualizing 120 years of Summer Olympics"
+  footer: "&copy; [Hongtao Hao](https://hongtaoh.com)| [Chris Fang](https://github.com/zihfang/) | 2020"
 
 markup:
   goldmark:
