@@ -1,0 +1,3 @@
+[submodule "olymvis-data"]
+	path = olymvis-data
+	url = https://github.com/hongtaoh/olymvis-data
