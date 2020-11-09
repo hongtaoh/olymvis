@@ -29,6 +29,4 @@ See [olymvis-data](https://github.com/hongtaoh/olymvis-data) for more details.
 If you prefer reading in PDF: [Here](https://github.com/hongtaoh/olymvis/blob/master/static/tex-pdf/fang_hao_olymvis.pdf) is our study in PDF, and [here](https://github.com/hongtaoh/olymvis/blob/master/static/tex-pdf/fang_hao_olymvis.tex) is the tex source code for the PDF. 
 
 ## About the Website
-This website is built with [Hugo](https://gohugo.io/). The theme is XMin(https://themes.gohugo.io/hugo-xmin/) by [Yihui Xie](https://yihui.org/). 
-
-You can find the source codes of this website [here](https://github.com/hongtaoh/olymvis).
+This website is built with [Hugo](https://gohugo.io/). The theme is [XMin](https://themes.gohugo.io/hugo-xmin/) by [Yihui Xie](https://yihui.org/). 
