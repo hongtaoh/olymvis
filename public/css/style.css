@@ -86,6 +86,10 @@ figcaption, .caption, .caption-up-a-little {
   margin-right: -50vw;
 }
 
+.center {
+  margin: 0 auto;
+}
+
 /* code */
 pre {
   border: 1px solid #ddd;

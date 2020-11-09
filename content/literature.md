@@ -26,7 +26,6 @@ This graph is successful in showing the growth in the number of female athletes.
 Washington Street Journal did an interactive visualizations comparing the inclusion of female and male events in the Olympics history (Serkez, 2018). It clearly shows that most men’s events were already established before the 1960s, whereas most women’s events were only introduced after the 1980s. See Figure 2. 
 
 {{<figure src="/pics/1-4.png" caption="Figure. 2: Interactive plot by Washington Post showing inclusion of male and female Olympic events" class="wide">}}
-<div class="caption">
 
 Each individual dot represents a sport of a gender. When clicked, there will be a line connecting to the same sport of a different gender, and information on the inclusion of this sport for both genders will appear. Overall, this visualization clearly shows how late were the introduction of female events in the Olympics history, but it did not show how the number and percentage of female athletes changed over the years. 
 
@@ -42,14 +41,26 @@ Although there were many attempts visualizing the evolution of female participat
 
 Similar to the attempt at showing female participation, simple and basic tables were utilized to examine the existence of home-field advantage at the Olympics (Pettigrew & Reiche, 2016). See Figure 4.
 
-{{<figure src="/pics/2-1.png" caption="Figure 4: Medals won by host countries at host year and the previous Olympics, Pettigrew & Reiche (2016)">}}
+<figure style="position: relative">
+	<img src="/pics/2-1.png" style="display: block;
+margin: 0 auto;"></img>
+    <div class="caption">
+	Figure 4: Medals won by host countries at host year and the previous Olympics, Pettigrew & Reiche (2016)
+    </div>
+</figure>
 
 This visualization shows a table comparing the total number of medals earned at the host year and the previous Olympics. Changes between the two were shown in the last column.  Among the 16 host countries from 1952 to 2012, only two countries showed negative changes, meaning that hosting the Olympics helped the country earn more medals. However, the problem with this method is that it is a little bit arbitrary to compare the host year and the adjacently previous Olympics. Changes might have been positive simply because these countries did not perform well only in the previous Games, even though they had performed well eight or more years before the host year. Therefore, it is a more robust choice to showing these countries’ Olympic performances in all years. 
 
 Clarke (2000) did this by calculating the “Home: Away Ratio”. See Table 2.
 
+<figure style="position: relative">
+	<img src="/pics/2-3.png" style="display: block;
+margin: 0 auto;"></img>
+    <div class="caption">
+	Table 2: Percentage of available medals won by host countries at home and away, Clarke (2016)
+    </div>
+</figure>
 
-{{<figure src="/pics/2-3.png" caption="Table 2: Percentage of available medals won by host countries at home and away, Clarke (2016)">}}
 
 He listed the percentage of all available medals won by countries that have ever hosted a Olympic both at the Home years and the Away years. The ratio of “Home: Away” was calculated. Obviously, a ratio larger than 1 indicates the existence of home-field advantage at the Olympics. The drawback of this method is that it only shows the summary of all the years, lacking information about these countries’ performance in each year. 
 
