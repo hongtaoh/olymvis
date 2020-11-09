@@ -35,4 +35,9 @@ Based on the above discussions of the previous visualizations on the topics we a
 
 # Workflow
 
-See [olymvis-data](https://github.com/hongtaoh/olymvis-data) for more details. 
+See [olymvis-data](https://github.com/hongtaoh/olymvis-data) for more details.
+
+# About the Website
+This website is built with [Hugo](https://gohugo.io/). The theme is XMin(https://themes.gohugo.io/hugo-xmin/) by [Yihui Xie](https://yihui.org/). 
+
+You can find the source codes of this website [here](https://github.com/hongtaoh/olymvis).
