@@ -45,7 +45,9 @@ As can be seen, it is effective in the way that it shows the dramatic changes in
 
 Although there were many attempts visualizing the evolution of female participation in general, few visualizations exist showing the percentage change by continent. The only piece we found is several tables showing men and women participation in the Olympics from 1996 to 2016. No visualizations on this information were made. We decided that there is a gap in here. Although both the total number and relative percentage of female athletes have been growing (Nunes, 2019), the increase might be different between continents. We decided to take a closer look at this in our study. 
 
+
 ## Home-field Advantage
+
 
 Similar to the attempt at showing female participation, simple and basic tables were utilized to examine the existence of home-field advantage at the Olympics (Pettigrew & Reiche, 2016). See Figure 4.
 
@@ -66,7 +68,9 @@ Visualizations showing all the years do exist (Grange, 2016). See Figure 5.
 
 For example, in this small multiple made by R, each graph has a blue vertical line emphasizing the number of medals earned during the host year, and a red horizontal line indicating the total average. It is very effective in the sense that it clearly compares the performance during the host year and all other years. The problem with this method is that lines are not very good at showing density distribution of medal numbers over the years. To improve this drawback, we decided to use kernel density estimation (KDE) coupled with small multiples. 
 
+
 ## Medal Efficiency
+
 
 The most straightforward way of measuring a country’s efficiency of earning medals is to count the number of medals per athlete participating. This method was used by Pettigrew and Reiche (2016) in their analysis of home-field advantage. 
 
