@@ -57,7 +57,7 @@ var figure27 = {
   "height": 300,
   "title": {
     "anchor": "middle",
-    "text": "Changes in female athlets participation in Summer Olympics over time",
+    "text": "Changes in female athletes participation in Summer Olympics over time",
     "frame": "group"
   },
   "style": "cell",
@@ -1559,7 +1559,7 @@ var figure28_2 = {
   "padding": 5,
   "title": {
     "anchor": "middle",
-    "text": "Changes in female athlets participation in Summer Olympics"
+    "text": "Changes in female athletes participation in Summer Olympics"
   },
   "data": [
     {"name": "selector069_store"},
@@ -3147,7 +3147,7 @@ var figure29 = {
   "background": "white",
   "padding": 5,
   "title": {
-    "text": "Changes in female athlets participation in Summer Olympics",
+    "text": "Changes in female athletes participation in Summer Olympics",
     "anchor": "middle"
   },
   "data": [
