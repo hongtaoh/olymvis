@@ -1,0 +1,27 @@
+  <footer>
+  {{ partial "foot_custom.html" . }}
+  <div class="footer">
+  {{ with .Site.Params.footer }}
+  <ul class="copyright">
+    <li>{{ . | markdownify }}</li>
+  </ul>
+  {{ end }}
+  <ul>
+    <li>
+      <a href="https://github.com/hongtaoh/olymvis">Website Repo</a>
+    </li>
+    <li>
+      <a href="https://github.com/hongtaoh/olymvis-data">Data Repo</a>
+    </li>
+    <li>
+      {{ if .IsHome}}
+      <a href="/#">Back to top</a>
+      {{ else }}
+      <a href="/paper/#">Back to top</a>
+      {{ end }}
+    </li>
+  </ul>
+  </div>
+  </footer>
+  </body>
+</html>
