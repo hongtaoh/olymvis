@@ -1,0 +1,12 @@
+.reminder {
+  min-height: 4em;
+  padding: 1em 1em 1em 4em;
+  background: #f5f5f5 2px center/3em no-repeat;
+  background-image: url("/reminder.png");
+}
+.custom-a {
+  color: black;
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 1px solid;
+}
