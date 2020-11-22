@@ -7,10 +7,10 @@ This data visualization project was completed by <a href="https://www.linkedin.c
 
 This study analyzed the <a href="https://github.com/rgriff23/Olympic_history" style="padding-bottom: 1px;border-bottom: 1px solid;">historical data</a> which contains information on athletes in all the past modern Olympic Games. We tried to answer four questions:
 
-- how female participation changed over the years and how these changes differed between continents?
-- whether there is a home-field advantage at the Olympics?
-- how "efficient" is each participating country and region to get medals? and 
-- which sports had the highest number of participants?
+- How did female participation change over the years and how did these changes differ between continents?
+- Is there a home-field advantage at the Olympics?
+- How "efficient" is each participating country or region to get medals? and 
+- Which sports had the highest number of participants?
 
 <div class="quote-right">
 
