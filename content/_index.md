@@ -14,10 +14,10 @@ This study analyzed the <a href="https://github.com/rgriff23/Olympic_history" st
 
 <div class="quote-right">
 
-> Both total number of athletes and the rate of female participation have been increasing in the past 120 years. 
+> Both the total number of athletes and the rate of female participation have been increasing in the past 120 years. 
 
 </div>
 
-Results showed that both total number of athletes and the rate of female participation have been increasing in the past 120 years. Also, there seems to exist a home-field advantage. Third, medal efficiency is highly correlated with participating country or region's economic development. Finally, athletics, gymnastics, and swimming have the highest number of athletes.
+Results showed that both the total number of athletes and the rate of female participation have been increasing in the past 120 years. Also, there seems to exist a home-field advantage. Third, medal efficiency is highly correlated with participating country or region's economic development. Finally, athletics, gymnastics, and swimming have the highest number of athletes.
 
 You can also download the <a href="https://raw.githubusercontent.com/hongtaoh/olymvis/master/static/tex-pdf/fang_hao_olymvis.pdf" style="padding-bottom: 1px;border-bottom: 1px solid;">PDF version</a> of our paper, whose LaTex source code can be found <a href = "https://github.com/hongtaoh/olymvis/blob/master/static/tex-pdf/fang_hao_olymvis.tex" style="padding-bottom: 1px;border-bottom: 1px solid;">here</a> .

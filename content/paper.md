@@ -9,6 +9,7 @@ appendix:
 features: [+toc, +number_sections, +sidenotes, -citation]
 ---
 ## Abstract
+
 From the first modern Olympics in 1896 to Rio 2016, the Summer Olympic Games has been through 120 years. This study analyzed the [historical data](https://github.com/rgriff23/Olympic_history) about the Olympics and tried to answer four questions, i.e., 
 
 - how female participation changed over the years and how these changes differed between continents,
@@ -19,21 +20,21 @@ From the first modern Olympics in 1896 to Rio 2016, the Summer Olympic Games has
 Results showed that both total number of athletes and the rate of female participation have been increasing in the past 120 years. Also, there seems to exist a home-field advantage. Third, medal efficiency is highly correlated with participating country or region's economic development. Finally, athletics, gymnastics, and swimming have the highest number of athletes.
 
 ## Motivation
-The modern Olympic Games are the greatest sports mega-event in the world (Grix, 2013). It generates a massive number of  audiences worldwide. The latest Rio 2016 Olympics, for example, attracted 3.5 billion viewers (Roxbourough, 2016), half of the world population. Apart from this mobilizing power, the Olympic Games have significant political (Giulianotii, 2015; Cottrell \& Nelson, 2010; MacAloon, 1995), economic (Madden, 2002; Blake, 2005; Osada, Ojima, Kurachi, Miura, \& Kawamoto, 2016), and socio-cultural (Malfas, Theodoraki, \& Houlihan, 2004) impacts. It also contributes to global friendship and cooperation (Beutler, 2008). 
+The modern Olympic Games are the greatest sports mega-event in the world (Grix, 2013). It generates a massive number of  audiences worldwide. The latest Rio 2016 Olympics, for example, attracted 3.5 billion viewers (Roxbourough, 2016), half of the world population. Apart from this mobilizing power, the Olympic Games have significant political (Giulianotii, 2015; Cottrell & Nelson, 2010; MacAloon, 1995), economic (Madden, 2002; Blake, 2005; Osada, Ojima, Kurachi, Miura, & Kawamoto, 2016), and socio-cultural (Malfas, Theodoraki, & Houlihan, 2004) impacts. It also contributes to global friendship and cooperation (Beutler, 2008). 
 
-Gender equality in sports has been a hot topic (Mervosh \& Caron, 2019). Debates on this issue have revolved around equal pay and media coverage (Baker, Seymour, \& Zimbalist, 2019). There has long been a obvious gender pay gap in sports (Abrams, 2019; Farmer, 2017). For example, of the 100 athletes on the 2019 Forbes list of the world’s highest-paid athletes, only one of them is a women. i.e., Serena Williams, who is ranked 63th on the list. There has also been a lack of media coverage on women in sports. Although 40\% of all sports participants are female, only 4\% of the sports media coverage were about female athletes (MacKenzie, 2019). A study (Cooky, Messner, \& Musto, 2015) examining sports coverage from 1989 to 2014 found that despite a dramatic increase in the number of women playing sports (Good, 2015), there had been a decrease in the amount of coverage of female athletes. Under this backdrop, we aim to look at female participation across the globe in Summer Olympic Games in the past 120 years.
+Gender equality in sports has been a hot topic (Mervosh & Caron, 2019). Debates on this issue have revolved around equal pay and media coverage (Baker, Seymour, & Zimbalist, 2019). There has long been an obvious gender pay gap in sports (Abrams, 2019; Farmer, 2017). For example, of the 100 athletes on the 2019 Forbes list of the world’s highest-paid athletes, only one of them is a woman. i.e., Serena Williams, who is ranked 63th on the list. There has also been a lack of media coverage on women in sports. Although 40% of all sports participants are female, only 4% of the sports media coverage were about female athletes (MacKenzie, 2019). A study (Cooky, Messner, & Musto, 2015) examining sports coverage from 1989 to 2014 found that despite a dramatic increase in the number of women playing sports (Good, 2015), there had been a decrease in the amount of coverage of female athletes. Under this backdrop, we aim to look at female participation across the globe in the Summer Olympic Games of the past 120 years.
 
-Recently, there has been a trend that fewer cities want to host the Olympics, challenging the future of a century-old tradition (Goldblatt, 2016). For example, 12 cities bid for 2004 Summer Olympics but only two for 2020 Winter games (Ludacer, 2018). Considering the importance of Olympic success in national pride (Mower, 2012), a home-field advantage in the Olympics might encourage countries to bid for hosting the mega-event. Therefore, it is worth investigating whether this advantage exists in the Olympics, and how significant is it. 
+Recently, there has been a trend that fewer cities want to host the Olympics, challenging the future of a century-old tradition (Goldblatt, 2016). For example, 12 cities bid for 2004 Summer Olympics but only two for the 2020 Winter games (Ludacer, 2018). Considering the importance of Olympic success in national pride (Mower, 2012), a home-field advantage in the Olympics might encourage countries to bid for hosting the mega-event. Therefore, it is worth investigating whether this advantage exists in the Olympics, and how significant it is. 
 
-Although earning medals can boost national pride, countries are not “born equal” in terms of their ability to achieve Olympic success. Studies have demonstrated that population size and economic development for a large part determined a country’s Olympic performance (Soos, Martinez, \& Szabo, 2017; Xun, 2005; Bernard \& Busse, 2004). However, we think it’s unfair to compare Singapore with the United States in terms of total number of medals earned, because the two countries have totally different population size. What is more important is “medal efficiency”, i.e., medal counts per athlete participating in the Olympics. In other words, we are more concerned about how effective is a country to earn medals, rather than the total number of medals earned. We aim to look at how this “medal efficiency” differ between countries. 
+Although earning medals can boost national pride, countries are not “born equal” in terms of their ability to achieve Olympic success. Studies have demonstrated that population sizes and economic development for a large part determined a country’s Olympic performance (Soos, Martinez, & Szabo, 2017; Xun, 2005; Bernard & Busse, 2004). However, we think it’s unfair to compare Singapore with the United States in terms of total number of medals earned, because the two countries have totally different population size. What is more important is “medal efficiency”, i.e., medal counts per athlete participating in the Olympics. In other words, we are more concerned about how effective a country is to earn medals, rather than the total number of medals earned. We aim to look at how this “medal efficiency” differs between countries. 
 
-Apart from its significance for societies at large, Olympics is associated with individuals’ health as well (Sandercocok, Beedie, \&  Mann, 2016). People might be inspired by the Olympics and more actively engage in physical activities. Besides its benefits for physical health (Warburton, Nicol, \& Bredin, 2006), it has psychological benefits as well (Ghildiyal, 2015). For example, playing sports can help build one’s characters. With the importance of sports in mind, we want to examine which sports in the Olympics history have the highest number of participants. 
+Apart from its significance for societies at large, Olympics is associated with individuals’ health as well (Sandercocok, Beedie, &  Mann, 2016). People might be inspired by the Olympics and more actively engage in physical activities. Besides its benefits for physical health (Warburton, Nicol, & Bredin, 2006), it has psychological benefits as well (Ghildiyal, 2015). For example, playing sports can help build one’s characters. With the importance of sports in mind, we want to examine which sports in the Olympics history have the highest number of participants. 
 
 ## Literature Review
 
 ### Female Participation in Summer Olympics
 
-Many attempts have already been made to visualize female participation in the Olympics. The most basic one (Bmallion, 2015) is using tables to display the information about countries with the highest and lowest percentages of female athletes, and to show female percentage across the 120 years of the Olympics. See Table 1. 
+Many attempts have already been made to visualize female participation in the Olympics. The most basic one (Bmallion, 2015) is using tables to display the information about countries with the highest and lowest percentages of female athletes, and to show female percentages across the 120 years of the Olympics. See Table 1. 
 
 <div class="wide">
   <div class="left">
@@ -46,25 +47,25 @@ Many attempts have already been made to visualize female participation in the Ol
 
 This method is simple and informative. This is useful for researchers looking for information on this topic, but it is not effective in terms of visualization. For example, looking at the plain number won’t help viewers have a clear idea of the trend in female participation in the past 120 years. 
 
-Another simple but effective method is using line graph displaying the number of female and male athletes in each Olympic Games from 1896 to 2016 (Nunes, 2019). See Figure 1. 
+Another simple but effective method is using a line graph displaying the number of female and male athletes in each Olympic Games from 1896 to 2016 (Nunes, 2019). See Figure 1.
 
 {{<figure src="https://raw.githubusercontent.com/hongtaoh/olymvis/master/static/pics/1-3.png" caption="Figure. 1: Evolution of the number of Olympic athletes, male and female (1986-2016), Nunes (2019)">}}
 
 This graph is successful in showing the growth in the number of female athletes. However, it fails to show the percentage change. Although viewers can see directly the increase in the total number, they might find it difficult to notice the changes in the percentage. 
 
-Washington Street Journal did an interactive visualizations comparing the inclusion of female and male events in the Olympics history (Serkez, 2018). It clearly shows that most men’s events were already established before the 1960s, whereas most women’s events were only introduced after the 1980s. See Figure 2. 
+Washington Street Journal did an interactive visualization comparing the inclusion of female and male events in the Olympics history (Serkez, 2018). It clearly shows that most men’s events were already established before the 1960s, whereas most women’s events were only introduced after the 1980s. See Figure 2. 
 
 {{<figure src="https://raw.githubusercontent.com/hongtaoh/olymvis/master/static/pics/1-4.png" caption="Figure. 2: Interactive plot by Washington Post showing inclusion of male and female Olympic events" class="wide">}}
 
-Each individual dot represents a sport of a gender. When clicked, there will be a line connecting to the same sport of a different gender, and information on the inclusion of this sport for both genders will appear. Overall, this visualization clearly shows how late were the introduction of female events in the Olympics history, but it did not show how the number and percentage of female athletes changed over the years. 
+Each individual dot represents a sport of a gender. When clicked, there will be a line connecting to the same sport of a different gender, and information on the inclusion of this sport for both genders will appear. Overall, this visualization clearly shows how late the introduction of female events was in the Olympics history, but it did not show how the number and percentage of female athletes changed over the years. 
 
 The official website of the International Olympic Committee (IOC) also made an attempt to show the growth in the percentage of sportswomen in the Olympics. See Figure 3.
 
 {{<figure src="https://raw.githubusercontent.com/hongtaoh/olymvis/master/static/pics/1-5.png" caption="Figure. 3: IOC graph visualizing female athletes' participation">}}
 
-As can be seen, it is effective in the way that it shows the dramatic changes in female participation by showing four Olympics in each of the chart. However, its drawback is obvious: the number of Olympic Games that are able to be displayed is extremely limited. It is impossible to show the information of all the Olympics in the past 120 years using this method. 
+As can be seen, it is effective in the way that it shows the dramatic changes in female participation by showing four Olympics in each of the charts. However, its drawback is obvious: the number of Olympic Games that are able to be displayed is extremely limited. It is impossible to show the information of all the Olympics in the past 120 years using this method. 
 
-Although there were many attempts visualizing the evolution of female participation in general, few visualizations exist showing the percentage change by continent. The only piece we found is several tables showing men and women participation in the Olympics from 1996 to 2016. No visualizations on this information were made. We decided that there is a gap in here. Although both the total number and relative percentage of female athletes have been growing (Nunes, 2019), the increase might be different between continents. We decided to take a closer look at this in our study. 
+Although there were many attempts visualizing the evolution of female participation in general, few visualizations exist showing the percentage change by continent. The only piece we found is several tables showing men and women participation in the Olympics from 1996 to 2016. No visualizations on this information were made. We decided that there is a gap here. Although both the total number and relative percentage of female athletes have been growing (Nunes, 2019), the increase might be different between continents. We decided to take a closer look at this in our study. 
 
 ### Home-field Advantage
 
@@ -78,7 +79,7 @@ margin: 0 auto;"></img>
     </div>
 </figure>
 
-This visualization shows a table comparing the total number of medals earned at the host year and the previous Olympics. Changes between the two were shown in the last column.  Among the 16 host countries from 1952 to 2012, only two countries showed negative changes, meaning that hosting the Olympics helped the country earn more medals. However, the problem with this method is that it is a little bit arbitrary to compare the host year and the adjacently previous Olympics. Changes might have been positive simply because these countries did not perform well only in the previous Games, even though they had performed well eight or more years before the host year. Therefore, it is a more robust choice to showing these countries’ Olympic performances in all years. 
+This visualization shows a table comparing the total number of medals earned at the host year and the previous Olympics. Changes between the two were shown in the last column.  Among the 16 host countries from 1952 to 2012, only two countries showed negative changes, meaning that hosting the Olympics helped the country earn more medals. However, the problem with this method is that it is a little bit arbitrary to compare the host year and the adjacently previous Olympics. Changes might have been positive simply because these countries did not perform well only in the previous Games, even though they had performed well eight or more years before the host year. Therefore, it is a more robust choice to show these countries’ Olympic performances in all years. 
 
 Clarke (2000) did this by calculating the “Home: Away Ratio”. See Table 2.
 
@@ -91,7 +92,7 @@ margin: 0 auto;"></img>
 </figure>
 
 
-He listed the percentage of all available medals won by countries that have ever hosted a Olympic both at the Home years and the Away years. The ratio of “Home: Away” was calculated. Obviously, a ratio larger than 1 indicates the existence of home-field advantage at the Olympics. The drawback of this method is that it only shows the summary of all the years, lacking information about these countries’ performance in each year. 
+He listed the percentage of all available medals won by countries that have ever hosted an Olympic both at the Home years and the Away years. The ratio of “Home: Away” was calculated. Obviously, a ratio larger than 1 indicates the existence of home-field advantage at the Olympics. The drawback of this method is that it only shows the summary of all the years, lacking information about these countries’ performance in each year. 
 
 Visualizations showing all the years do exist (Grange, 2016). See Figure 5.
 
@@ -118,7 +119,7 @@ Visualizations by Eirk (2016) for the *Telegraph*, and those by medalspercapita.
   </div>
 </div>
 
-Similarly, using the concept of “medals per capita”, medalspercapita.com ranked countries based on “population per medal”, i.e., how many people are needed to generate a medal. They created a choropleth map based the results where darker colors indicate lower “medals per capita”. See Table 3 and Figure 9. 
+Similarly, using the concept of “medals per capita”, medalspercapita.com ranked countries based on “population per medal”, i.e., how many people are needed to generate a medal. They created a choropleth map based on the results where darker colors indicate lower “medals per capita”. See Table 3 and Figure 9. 
 
 <div class="wide">
   <div class="left">
@@ -129,33 +130,32 @@ Similarly, using the concept of “medals per capita”, medalspercapita.com ran
   </div>
 </div>
 
-However, we think it is problematic to divide medal counts by population or GDP in measuring medal efficiency. First of all, this method is unfair for countries who joined the Olympics late. For example, China (PRC) attended the Olympics for the first time in 1952 and due to political issues, it was not a participant till 1984 (COC, 2004). If total number of medals is the basis for medal efficiency, it would be unfair for countries like China and many newly founded countries in Africa. 
+However, we think it is problematic to divide medal counts by population or GDP in measuring medal efficiency. First of all, this method is unfair for countries who joined the Olympics late. For example, China (PRC) attended the Olympics for the first time in 1952 and due to political issues, it was not a participant till 1984 (COC, 2004). If the total number of medals is the basis for medal efficiency, it would be unfair for countries like China and many newly founded countries in Africa. 
 
 Second, it might be unfair to divide the number of medals by population. This formula assumes that a country can send as many athletes as it wants, but this is not the case. For example, for Tokyo 2020, each country can send at most three male and three female athletes (International Table Tennis Federation, 2018). As a result, China will send six table tennis athletes, as will Australia, Japan, Brazil, Egypt, Germany, and the United States (Wikipedia, n.d.), even though China’s population size is larger than that of all the six countries combined (World Bank, 2018).
 
-Third, it might be simplistic to only count the total number of medals. There has been a debate on whether ranking of Olympic countries should be based on the number of total medals or only golds (Johnson, 2008). We decided to adopt the method by New York Times, i.e., “medal points” (Klein, 2008). In this system, a gold medal is given 4 points, silver 2 and bronze 1. Center for Strategic International Studies (n.d.) used this method and ranked countries based on what they called as “weighted medals”. 
+Third, it might be simplistic to only count the total number of medals. There has been a debate on whether the ranking of Olympic countries should be based on the number of total medals or only golds (Johnson, 2008). We decided to adopt the method by New York Times, i.e., “medal points” (Klein, 2008). In this system, a gold medal is given 4 points, silver 2 and bronze 1. Center for Strategic International Studies (n.d.) used this method and ranked countries based on what they called as “weighted medals”. 
 
-In this interactive, viewers can see a country’s ranking on each categories of sport in a specific Olympic Games by clicking the country’s name. This visualization is clear and direct, but it has some drawbacks. First, only the top countries can be shown interactively but there are over 200 participating countries and regions. Second, and because of the first drawback, this visualization did not provide viewers a general idea of the distribution of media efficiency across countries. See Figure 10.
+In this interactive, viewers can see a country’s ranking on each category of sport in a specific Olympic Games by clicking the country’s name. This visualization is clear and direct, but it has some drawbacks. First, only the top countries can be shown interactively but there are over 200 participating countries and regions. Second, and because of the first drawback, this visualization did not provide viewers a general idea of the distribution of media efficiency across countries. See Figure 10.
 
 {{<figure src="https://raw.githubusercontent.com/hongtaoh/olymvis/master/static/pics/3-7.png" class="wide" caption="Figure 10: Ranking of countries by weighted medals">}}
 
 To solve these problems, we decided to rank countries by “medal points” as well, but on an interactive choropleth world map. 
 
 ### Ranking Sports by Number of Athletes
-
-Dutta (2018) in his Kaggle post visualized the top 10 sports that USA excel by putting 10 boxes vertically with sporting winning the most gold medals on top. See Figure 11.
+Dutta (2018) in his Kaggle post visualized the top 10 sports that USA excel by putting 10 boxes vertically with sports winning the most gold medals on top. See Figure 11.
 
 {{<figure src="https://raw.githubusercontent.com/hongtaoh/olymvis/master/static/pics/4-1.png" caption="Figure 11: Ranking of sports by weighted medals">}}
 
-This visualization is transparent and clear but the problem is that it is limited to only about 10 items, which is not enough for us to visualize all the sports in the Summer Olympics. Instead, we decided to try bar chart and word cloud for our visualizations. 
+This visualization is transparent and clear but the problem is that it is limited to only about 10 items, which is not enough for us to visualize all the sports in the Summer Olympics. Instead, we decided to try a bar chart and word cloud for our visualizations. 
 
 ## Visualization Plans
 ### Plans: Female Participation
-As discussed above, we will use line graph, stacked bar chart, and area chart to show the overall trend of female participation in the Summer Olympics. For female participation in each individual continent, we will use KDE in a small multiple. 
+As discussed above, we will use a line graph, stacked bar chart, and area chart to show the overall trend of female participation in the Summer Olympics. For female participation in each individual continent, we will use KDE in a small multiple. 
 
-In line graph, the x-axis will be time and the y-axis the percentage against the total number of participants. We will show both female and male athletes. See Figure 12.
+In a line graph, the x-axis will be time and the y-axis the percentage against the total number of participants. We will show both female and male athletes. See Figure 12.
 
-For stacked bar chart, the x-axis will be time and y-axis will percentage against the total number of athletes. Two segments in each bar will represent male and female respectively, and the two will sum up to 100\% for every year presented. This will make the comparison between male and female participation very clear. See Figure 13.
+For stacked bar charts, the x-axis will be time and y-axis percentage against the total number of athletes. Two segments in each bar will represent male and female respectively, and the two will sum up to 100% for every year presented. This will make the comparison between male and female participation very clear. See Figure 13.
 
 <div class="wide">
 
@@ -190,7 +190,7 @@ For female participation in each individual continent over the years, we will li
 </div>
 
 ### Plans: Home-field Advantage
-To examine whether there exists a home-field advantage at the Olympics, we will first use a scatter plot with jitter. The x-axis will be countries that have ever been a host, and the y-axis will be the percentage against the total number of medals a country earned. Each dot represents an Olympic Games the country has participated. Black dots denote data for a “non-host” year and orange dots denote data for host year. See Figure 16.
+To examine whether there exists a home-field advantage at the Olympics, we will first use a scatter plot with jitter. The x-axis will be countries that have ever been a host, and the y-axis will be the percentage against the total number of medals a country earned. Each dot represents an Olympic Games the country has participated in. Black dots denote data for a “non-host” year and orange dots denote data for host year. See Figure 16.
 
 To better show the density distribution of medal gains, we will employ kernel density estimation in a small multiple. The x-axis will be the percentage against the total number of medals at a Games and the y-axis will be density. We will use an arrow to denote the density of a year when the country was a host. See Figure 17.
 
@@ -219,7 +219,7 @@ The index of “medal efficiency” will be calculated as medal points per athle
 ### Plans: Ranking Sports
 First, we will use a bar chart where the x-axis will be the different sports and the y-axis the corresponding number of athletes. See Figure 19. 
 
-Second, we will show this ranking using a word cloud in which larger font size denotes higher number of participants. This graph will be clearer and more direct because viewers can intuitively get a sense of the relative size of participation of a sport. See Figure 20.
+Second, we will show this ranking using a word cloud in which larger font size denotes a higher number of participants. This graph will be clearer and more direct because viewers can intuitively get a sense of the relative size of participation of a sport.  See Figure 20.
 
 <div class="wide">
 
@@ -237,7 +237,7 @@ Second, we will show this ranking using a word cloud in which larger font size d
 
 ## Plotting
 ### Female Participation over Time
-As planned above, we started with a simple line graph displaying both male and female athletes’ percentage against all athletes. The strength of this method is that it is simple and clear. It shows that female percentage has been steadily growing in the past century at the Olympics. The drawback is that it does not generate a stark contrast between male and female as a stacked bar chart can do. See Figure 21.
+As planned above, we started with a simple line graph displaying both male and female athletes’ percentage against all athletes. The strength of this method is that it is simple and clear. It shows that the female percentage has been steadily growing in the past century at the Olympics. The drawback is that it does not generate a stark contrast between male and female as a stacked bar chart can do. See Figure 21.
 
 <div id="figure23" class="vis"></div>
 <div class="caption">Figure 21: Line graph for changes in female participation</div>
@@ -247,20 +247,17 @@ We then used stacked bar graphs. We first tried stacking the bar horizontally wi
 <div id="figure24" class="vis"></div>
 <div class="caption">Figure 22: Horizontal stacked bar chart for changes in female participation</div>
 
-
 It was not as beautiful as we wanted, so we tried to put it upright and replace the axis labels. To highlight the trend, we set the male section grey and the female part bright blue. We also drew a red line at the intersection of the two parts. This time, female participation was obviously highlighted and the trend shown very clearly. See Figure 23.
-
 
 <div id="figure25" class="vis"></div>
 <div class="caption">Figure 23: Vertical stacked bar chart for changes in female participation</div>
 
-However, as discussed above, stacked bar charts can only show the changes in percentages, not those in actual number of participants. To also visualize how the total number of athletes participating in Summer Olympics changed over the century, we opted stacked area chart. See Figure 24.
+However, as discussed above, stacked bar charts can only show the changes in percentages, not those in the actual number of participants. To also visualize how the total number of athletes participating in the Olympics changed over the century, we opted for a stacked area chart. See Figure 24.
 
 <div id="figure26" class="vis"></div>
 <div class="caption">Figure 24: Stacked area chart for changes in female participation</div>
 
 The x-axis denotes time and the y-axis number of athletes. Areas are made up of male and female participants. The two added up to the total number of athletes. This stacked area chart not only shows the changes in female participation, it also displays how the total number of athletes has been increasing over the years. The drawback is that area is not a much preferred visual encoding. As a result, the comparison of percentages of male and female is not very accurate. That said, we think its strengths outweigh its disadvantages.
-
 
 <script type="text/javascript">
 var figure23 = {
@@ -3415,7 +3412,7 @@ To visualize changes in female participation in each continent, we first used a 
 
 The graph was very messy. As there were six continents and one global average, we could not distinguish between the seven categories very easily. So we gave up this option. 
 
-Then we tried a small multiple in which each continent and the global average were shown in simple line graphs. This chart showed every continent clearly but it was not very easy to make comparison. See Figure 26.
+Then we tried a small multiple in which each continent and the global average were shown in simple line graphs. This chart showed every continent clearly but it was not very easy to make a comparison. See Figure 26.
 
 <!--
 [**FIGURE 28 HERE**]
@@ -3429,7 +3426,7 @@ The above visualization was made by seaborn. It's not of high resolution, so we 
 <div id="figure28_2" class="vis"></div>
 <div class="caption">Figure 26: Line graph in small multiple for female participation by continent</div>
 
-To make comparisons clearer, we decided to use area chart. We stacked each area chart each representing a continent along a vertical line. However, comparisons were still difficult. Most importantly, in terms of using color as the visual encoding, this graph has too many categories. Besides, it has red and green at the same time, and therefore is not accessible to colorblind populations. See Figure 27.
+To make comparisons clearer, we decided to use an area chart. We stacked each area chart each representing a continent along a vertical line. However, comparisons were still difficult. Most importantly, in terms of using color as the visual encoding, this graph has too many categories. Besides, it has red and green at the same time, and therefore is not accessible to colorblind populations. See Figure 27.
 
 <!--
 
@@ -3440,7 +3437,7 @@ To make comparisons clearer, we decided to use area chart. We stacked each area 
 <div id="figure29" class="vis"></div>
 <div class="caption">Figure 27: Stacked bar chart for female participation by continent</div>
 
-We then went back to small multiple. Since we cared about the comparison between each continent, we decided to plot every continent and the global average in each of the six graphs. We highlighted only one continent in each graph, setting all other continents grey in the background. It worked much better than out earlier attempts, but one drawback is that it did not allow comparison with the global average. See Figure 28.
+We then went back to the small multiple. Since we cared about the comparison between each continent, we decided to plot every continent and the global average in each of the six graphs. We highlighted only one continent in each graph, and set all other continents grey in the background. It worked much better than out earlier attempts, but one drawback is that it did not allow comparison with the global average. See Figure 28.
 
 
 {{<figure src="https://raw.githubusercontent.com/hongtaoh/olymvis-data/master/output/vis/g-2-5.png"  caption="Figure 28: Line graph in small multiple for female participation by continent against all other groups" class="wide">}}
@@ -8134,7 +8131,7 @@ vegaEmbed('#figure29', figure29);
 </script>
 
 ### Home-Field Advantage
-As discussed above, we first tried scatter plot with jitter. The x-axis is the countries that have ever hosted the Olympics and y-axis denotes the percentage of a medals earned by a country against the total number of medals in that year. Blue dots represent data when the country were not the host and the orange ones for when it was the host. See Figure 30.
+As discussed above, we first tried scatter plot with jitter. The x-axis is the countries that have ever hosted the Olympics and the y-axis denotes the percentage of medals earned by a country against the total number of medals in that year. Blue dots represent data when the country was not the host and the orange ones for when it was the host. See Figure 30.
 
 {{<figure src="https://raw.githubusercontent.com/hongtaoh/olymvis-data/master/output/vis/g-2-7.png"  caption="Figure30: Scatter plot with jittering for home-field advantage" class="wide">}}
 
@@ -8143,12 +8140,12 @@ The blue dots were too packed. We later tried beeswarm plot coupled with box plo
 {{<figure src="https://raw.githubusercontent.com/hongtaoh/olymvis-data/master/output/vis/g-2-8.png" class="wide">}}
 <div class="caption-up-a-little">Figure 31: Beeswarm plot for home-field advantage</div>
 
-To show density distribution of medal percentages, we used kernel density estimation in a small multiple. The x-axis is the medal percentage and the y-axis is the probability density. We used a red arrow to denote when the country was a Olympics host. An arrow located at the tail would indicate the existence of home-field advantage. See Figure 32.
+To show density distribution of medal percentages, we used kernel density estimation in a small multiple. The x-axis is the medal percentage and the y-axis is the probability density. We used a red arrow to denote when the country was an Olympics host. An arrow located at the tail would indicate the existence of home-field advantage. See Figure 32.
 
 {{<figure src="/pics/g-2-9.png"  caption="Figure 32: KDE in small multiple for home-field advantage" class="wide">}}
 
 ### Medal Efficiency
-As planned, first of all, we did data manipulation before plotting. Golds were given four points, Silver 2, and Bronze 1. Attendance without any medals was assigned to 0 point. A country’s “medal efficiency” was calculated as the quotient of total medal points and the total number of athletes participating over 120 years. Therefore, if a country / region has a medal efficiency of 0.5, it means that on average, each athlete of that country / region earned half a Bronze. 
+As planned, first of all, we did data manipulation before plotting. Golds were given 4 points, Silver 2, and Bronze 1. Attendance without any medals was assigned to 0 point. A country’s “medal efficiency” was calculated as the quotient of total medal points and the total number of athletes participating over 120 years. Therefore, if a country / region has a medal efficiency of 0.5, it means that on average, each athlete of that country / region earned half a Bronze. 
 
 We then plotted a choropleth map using orthographic projection. We applied Viridis color map where darker shades denote higher medal efficiency. To ensure interactivity, we made this map with the Plotly package. See Figure 33.
 
@@ -8165,7 +8162,7 @@ We found this index both more accurate and intuitive. The reasons why it is more
 ### Ranking Sports
 To rank sports according to the number of athletes, we first plotted a bar chart, each bar representing a category. As can be seen below, since there were too many categories, the names of sports overlapped to a degree that most of them were indistinguishable. Since there are around thirty sports, using colors is not an ideal option. 
 
-We then thought about word cloud. In word cloud, the size of words is associated with the frequencies. This would make our ranking clearer. We did this visualization with the wordcloud package. See Figure 34.
+We then thought about the word cloud. In word clouds, the size of words is associated with the frequencies. This would make our ranking clearer. We did this visualization with the wordcloud package. See Figure 34.
 
 {{<figure src="https://raw.githubusercontent.com/hongtaoh/olymvis/master/static/pics/g-4-2.png"  caption="Figure 34: Word cloud of sports ranking by number of participants in all past Summer Olympics" class="wide">}}
 
@@ -8180,26 +8177,26 @@ This paper answered four major questions:
 
 ### Major Findings
 Our visualizations demonstrated that:
-- Both the total number of participating athletes and the percentage of female athletes in the Olympics has been increase. Female participation started from 0\% in Athens 1896 to 45\% in Rio 2016. 
+- Both the total number of participating athletes and the percentage of female athletes in the Olympics has been increasing. Female participation started from 0% in Athens 1896 to 45\% in Rio 2016. 
 
-- However, this growth in the rate of participation of women various across continents. The rate in Africa has always been lower than the global average except for during the 1930s. The rate in Asia and South America had also been always lower than the global average but caught up during the 1980s and 2000s, respectively. The rate in Europe, North America and Oceania has always been the same as or higher than the global mean.
+- However, this growth in the rate of participation of women varies across continents. The rate in Africa has always been lower than the global average except for during the 1930s. The rate in Asia and South America had also been always lower than the global average but caught up during the 1980s and 2000s, respectively. The rate in Europe, North America and Oceania has always been the same as or higher than the global mean.
 
 - A country is more likely to have a higher degree of medal share when it hosts the Olympics. In other words, home-field advantage does seem to exist in the Olympics. 
 
-- Among today’s countries and regions, the United States of America has the highest medal efficiency, 0.91. This means that on average, every American athlete almost earned a Bronze medal in the past Olympic Games. Medal efficiency for Russia, China, Pakistan, India, Germany, and Australia is also very high. We also found that medal efficiency had a high correlation with countries economic development. 
+- Among today’s countries and regions, the United States of America has the highest medal efficiency, 0.91. This means that on average, every American athlete almost earned a Bronze medal in the past Olympic Games. Medal efficiency for Russia, China, Pakistan, India, Germany, and Australia is also very high. We also found that medal efficiency had a high correlation with countries' economic development. 
 
 - Athletics, gymnastics, swimming, shooting and football are among the sports with the highest number of participating athletes. This might be because these sports have greater shares of total medals. It might also because there are many sub-categories within them.
 
 ### Reflections & Future Work
-First, when visualizing changes in female participation, we found that stacked bar chart is effective in showing the comparisons between male and female. Stacked area chart does not provide very accurate percentage change, but it is good if we also want to show how the total number of athletes has been increasing. Seaborn FacetGrid function is useful for visualizing female participation by continent. Reference information set in grey in the background and highlighting the global average helps us make comparisons between continent and with the global average much clearer. Our next step is to do this graph with Altair so as to enable interactivity when we post it online. 
+First, when visualizing changes in female participation, we found that stacked bar charts are effective in showing the comparisons between male and females. Stacked area charts do not provide very accurate percentage change, but it is good if we also want to show how the total number of athletes has been increasing. The seaborn FacetGrid function is useful for visualizing female participation by continent. Reference information set in grey in the background and highlighting the global average helps us make comparisons between continents and with the global average much clearer. Our next step is to do this graph with Altair so as to enable interactivity when we post it online. 
 
 In our study into the home-field advantage, we realized that even with jittering, scatter plot is not effective at showing a large number of data points. Beeswarm plot with box plot is good at displaying all the points without overlapping, but its representation of density distribution is not very intuitive and direct. KDE in a small multiple is a much better method for showing the distribution clearly. KDE in this case is especially useful for examining home-field advantage because it shows the level of probability that a country gets a certain share of medals. 
 
-Our introduction of “medal efficiency” contributes to the assessment of a country’s efficiency at obtaining Olympic medals. The choropleth we used allows to show all the countries and regions interactively. However, we acknowledged that it would have been better if it were a cartogram.  This might be our next step. 
+Our introduction of “medal efficiency” contributes to the assessment of a country’s efficiency at obtaining Olympic medals. The choropleth we used allows us to show all the countries and regions interactively. However, we acknowledged that it would have been better if it were a cartogram.  This might be our next step. 
 
 Using word cloud is a very unique way to show the relative size of participation in various sports. The drawback is that some sports have two or more words in their names, and our processing of word clouds might not have been rendering their frequencies very accurately. That is why we see “water”, “art” and “competition” in the word cloud. We will fix this problem in our next step. 
 
-We will publish it online as our profolio later. 
+We will publish it online as our portfolio later. 
 
 ## References
 Abrams, O. (2019, June 23). Why Female Athletes Earn Less Than Men Across Most Sports. Retrieved from [https://www.forbes.com/sites/oliviaabrams/2019/06/23/why-female-athletes-earn-less-than-men-across-most-sports/\#646f8eeb40fb](https://www.forbes.com/sites/oliviaabrams/2019/06/23/why-female-athletes-earn-less-than-men-across-most-sports/\#646f8eeb40fb).

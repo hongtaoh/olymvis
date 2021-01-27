@@ -31,7 +31,7 @@ menu:
 
 params:
   homePosts: 0
-  editLink: "https://github.com/hongtaoh/olymvis/edit/master/content/paper.md"
+  editLink: "https://github.com/hongtaoh/olymvis/edit/master/content/"
   authorDelimiter: " / "
   pageFeatures: [+sidenotes]
   description: >
