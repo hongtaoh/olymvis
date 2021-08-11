@@ -36,7 +36,7 @@ Apart from its significance for societies at large, Olympics is associated with 
 
 Many attempts have already been made to visualize female participation in the Olympics. The most basic one (Bmallion, 2015) is using tables to display the information about countries with the highest and lowest percentages of female athletes, and to show female percentages across the 120 years of the Olympics. See Table 1. 
 
-<div class="wide">
+<div class="fullwidth">
   <div class="left">
     {{<figure src="https://raw.githubusercontent.com/hongtaoh/olymvis/master/static/pics/1-1.png" caption="Table 1(a): Countries with the highest rate of female participation">}}
   </div>
