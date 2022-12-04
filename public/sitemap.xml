@@ -1,45 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://olymvis.netlify.app/card/contributions/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olymvis.netlify.app/card/data/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olymvis.netlify.app/card/authors/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olymvis.netlify.app/card/website/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olymvis.netlify.app/card/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olymvis.netlify.app/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olymvis.netlify.app/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olymvis.netlify.app/sitemap/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olymvis.netlify.app/tags/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olymvis.netlify.app/paper/</loc>
   </url>
-  
 </urlset>

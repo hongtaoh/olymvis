@@ -56,7 +56,45 @@
 &lt;h2 id=&#34;literature-review&#34;&gt;Literature Review&lt;/h2&gt;
 &lt;h3 id=&#34;female-participation-in-summer-olympics&#34;&gt;Female Participation in Summer Olympics&lt;/h3&gt;
 &lt;p&gt;Many attempts have already been made to visualize female participation in the Olympics. The most basic one (Bmallion, 2015) is using tables to display the information about countries with the highest and lowest percentages of female athletes, and to show female percentages across the 120 years of the Olympics. See Table 1.&lt;/p&gt;
-&lt;div class=&#34;wide&#34;&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://raw.githubusercontent.com/hongtaoh/olymvis/master/static/pics/1-1.png&#34;  alt=&#34;Table 1(a): Countries with the highest rate of female participation&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Table 1(a): Countries with the highest rate of female participation
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://raw.githubusercontent.com/hongtaoh/olymvis/master/static/pics/1-2.png&#34;  alt=&#34;Table 1(b): Female percentage in Olympic events&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Table 1(b): Female percentage in Olympic events
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;!-- &lt;div class=&#34;wide&#34;&gt;
   &lt;div class=&#34;left&#34;&gt;
     
 
@@ -99,7 +137,7 @@
 
 
   &lt;/div&gt;
-&lt;/div&gt;
+&lt;/div&gt; --&gt;
 &lt;p&gt;This method is simple and informative. This is useful for researchers looking for information on this topic, but it is not effective in terms of visualization. For example, looking at the plain number won’t help viewers have a clear idea of the trend in female participation in the past 120 years.&lt;/p&gt;
 &lt;p&gt;Another simple but effective method is using a line graph displaying the number of female and male athletes in each Olympic Games from 1896 to 2016 (Nunes, 2019). See Figure 1.&lt;/p&gt;
 
@@ -8615,7 +8653,7 @@ If you mess it up, just mouse over the figure, and in the menu shown on top of i
 &lt;p&gt;A country is more likely to have a higher degree of medal share when it hosts the Olympics. In other words, home-field advantage does seem to exist in the Olympics.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Among today’s countries and regions, the United States of America has the highest medal efficiency, 0.91. This means that on average, every American athlete almost earned a Bronze medal in the past Olympic Games. Medal efficiency for Russia, China, Pakistan, India, Germany, and Australia is also very high. We also found that medal efficiency had a high correlation with countries&amp;rsquo; economic development.&lt;/p&gt;
+&lt;p&gt;Among today’s countries and regions, the United States of America has the highest medal efficiency, 0.91. This means that on average, every American athlete almost earned a Bronze medal in the past Olympic Games. Medal efficiency for Russia, China, Pakistan, India, Germany, and Australia is also very high. We also found that medal efficiency had a high correlation with countries&#39; economic development.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Athletics, gymnastics, swimming, shooting and football are among the sports with the highest number of participating athletes. This might be because these sports have greater shares of total medals. It might also because there are many sub-categories within them.&lt;/p&gt;
